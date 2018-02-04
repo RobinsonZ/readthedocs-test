@@ -2,6 +2,7 @@ site_name: FEATHER
 
 theme:
   name: 'material'
+  theme-dir: ''
   palette:
     primary: 'blue'
     accent: 'orange'
