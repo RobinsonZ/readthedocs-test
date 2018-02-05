@@ -21,294 +21,379 @@
             "title": "License"
         }, 
         {
-            "location": "/about/", 
+            "location": "/demos/about/", 
             "text": "Cool\n\n\n\n\nDanger\n\n\nzach will try to convert you to kotlin\n\n\n\n\n\n\nNote\n\n\nresistance is futile\n\n\n\n\n\n\nWarning\n\n\nhttps://squidfunk.github.io/mkdocs-material/extensions/admonition/\n for more info\n\n\n\n\n1\nimport\n \ntensorflow\n \nas\n \ntf\n\n\n\n\n\n$$\na^2+b^2=c^2\n$$\n\n\n\n\n\n\n\n\nTest table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwith\n\n\nsome\n\n\nstuff\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCtrl\n+\nAlt\n+\nDel\n\n\nasdfsadf\n\n\n\n\nh1 Heading\n\n\nh2 Heading\n\n\nh3 Heading\n\n\nh4 Heading\n\n\nh5 Heading\n\n\nh6 Heading\n\n\nHorizontal Rules\n\n\n\n\n\n\n\n\nTypographic replacements\n\n\nEnable typographer option to see result.\n\n\n (C) \n (R) \n (TM) (p) (P) +-\n\n\ntest.. test... test..... test?..... test!....\n\n\n!!!!!! ???? ,,  -- ---\n\n\n\"Smartypants, double quotes\" and 'single quotes'\n\n\nEmphasis\n\n\nThis is bold text\n\n\nThis is bold text\n\n\nThis is italic text\n\n\nThis is italic text\n\n\nStrikethrough\n\n\nBlockquotes\n\n\n\n\nBlockquotes can also be nested...\n\n\n\n\n...by using additional greater-than signs right next to each other...\n\n\n\n\n...or with spaces between arrows.\n\n\n\n\n\n\n\n\nLists\n\n\nUnordered\n\n\n\n\nCreate a list by starting a line with \n+\n, \n-\n, or \n*\n\n\nSub-lists are made by indenting 2 spaces:\n\n\nMarker character change forces new list start:\n\n\nAc tristique libero volutpat at\n\n\nFacilisis in pretium nisl aliquet\n\n\nNulla volutpat aliquam velit\n\n\n\n\n\n\nVery easy!\n\n\n\n\nOrdered\n\n\n\n\nLorem ipsum dolor sit amet\n\n\nConsectetur adipiscing elit\n\n\n\n\nInteger molestie lorem at massa\n\n\n\n\n\n\nYou can use sequential numbers...\n\n\n\n\n...or keep all the numbers as \n1.\n\n\n\n\nStart numbering with offset:\n\n\n\n\nfoo\n\n\nbar\n\n\n\n\nCode\n\n\nInline \ncode\n\n\nIndented code\n\n\n1\n2\n3\n4\n// Some comments\nline 1 of code\nline 2 of code\nline 3 of code\n\n\n\n\n\n\nBlock code \"fences\"\n\n\n1\nSample text here...\n\n\n\n\n\n\nSyntax highlighting\n\n\n1\n2\n3\n4\n5\nvar\n \nfoo\n \n=\n \nfunction\n \n(\nbar\n)\n \n{\n\n  \nreturn\n \nbar\n++\n;\n\n\n};\n\n\n\nconsole\n.\nlog\n(\nfoo\n(\n5\n));\n\n\n\n\n\n\n\nTables\n\n\n\n\n\n\n\n\nOption\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\ndata\n\n\npath to data files to supply the data that will be passed into templates.\n\n\n\n\n\n\nengine\n\n\nengine to be used for processing templates. Handlebars is the default.\n\n\n\n\n\n\next\n\n\nextension to be used for dest files.\n\n\n\n\n\n\n\n\nRight aligned columns\n\n\n\n\n\n\n\n\nOption\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\ndata\n\n\npath to data files to supply the data that will be passed into templates.\n\n\n\n\n\n\nengine\n\n\nengine to be used for processing templates. Handlebars is the default.\n\n\n\n\n\n\next\n\n\nextension to be used for dest files.\n\n\n\n\n\n\n\n\nLinks\n\n\nlink text\n\n\nlink with title\n\n\nAutoconverted link \nhttps://github.com/nodeca/pica\n (enable linkify to see)\n\n\nImages\n\n\n\n\n\n\nLike links, Images also have a footnote style syntax\n\n\n\n\nWith a reference later in the document defining the URL location:\n\n\nPlugins\n\n\nThe killer feature of \nmarkdown-it\n is very effective support of\n\nsyntax plugins\n.\n\n\nEmojies\n\n\n\n\nClassic markup: :wink: :crush: :cry: :tear: :laughing: :yum:\n\n\nShortcuts (emoticons): :-) :-( 8-) ;)\n\n\n\n\nsee \nhow to change output\n with twemoji.\n\n\nSubscript\n / \nSuperscript\n\n\n\n\n19^th^\n\n\nH\n2\nO\n\n\n\n\n\\\n\n\n++Inserted text++\n\n\n\\\n\n\nMarked text\n\n\nFootnotes\n\n\nFootnote 1 link\n1\n.\n\n\nFootnote 2 link\n2\n.\n\n\nInline footnote^[Text of inline footnote] definition.\n\n\nDuplicated footnote reference\n2\n.\n\n\nDefinition lists\n\n\n\n\nTerm 1\n\n\n\n\nDefinition 1\nwith lazy continuation.\n\n\n\n\nTerm 2 with \ninline markup\n\n\n\n\nDefinition 2\n\n\n1\n{ some code, part of Definition 2 }\n\n\n\n\n\n\nThird paragraph of definition 2.\n\n\n\n\n\n\nCompact style:\n\n\nTerm 1\n  ~ Definition 1\n\n\nTerm 2\n  ~ Definition 2a\n  ~ Definition 2b\n\n\nAbbreviations\n\n\nThis is HTML abbreviation example.\n\n\nIt converts \"HTML\", but keep intact partial entries like \"xxxHTMLyyy\" and so on.\n\n\n*[HTML]: Hyper Text Markup Language\n\n\nCustom containers\n\n\n::: warning\n\nhere be dragons\n\n:::\n\n\n\n\n\n\n\n\n\n\nFootnote \ncan have markup\n\n\nand multiple paragraphs.\n\n\n\n\n\n\nFootnote text.", 
             "title": "First Demo"
         }, 
         {
-            "location": "/about/#cool", 
+            "location": "/demos/about/#cool", 
             "text": "Danger  zach will try to convert you to kotlin    Note  resistance is futile    Warning  https://squidfunk.github.io/mkdocs-material/extensions/admonition/  for more info   1 import   tensorflow   as   tf   \n$$\na^2+b^2=c^2\n$$     Test table        with  some  stuff               Ctrl + Alt + Del  asdfsadf", 
             "title": "Cool"
         }, 
         {
-            "location": "/about/#h1-heading", 
+            "location": "/demos/about/#h1-heading", 
             "text": "", 
             "title": "h1 Heading"
         }, 
         {
-            "location": "/about/#h2-heading", 
+            "location": "/demos/about/#h2-heading", 
             "text": "", 
             "title": "h2 Heading"
         }, 
         {
-            "location": "/about/#h3-heading", 
+            "location": "/demos/about/#h3-heading", 
             "text": "", 
             "title": "h3 Heading"
         }, 
         {
-            "location": "/about/#h4-heading", 
+            "location": "/demos/about/#h4-heading", 
             "text": "", 
             "title": "h4 Heading"
         }, 
         {
-            "location": "/about/#h5-heading", 
+            "location": "/demos/about/#h5-heading", 
             "text": "", 
             "title": "h5 Heading"
         }, 
         {
-            "location": "/about/#h6-heading", 
+            "location": "/demos/about/#h6-heading", 
             "text": "", 
             "title": "h6 Heading"
         }, 
         {
-            "location": "/about/#horizontal-rules", 
+            "location": "/demos/about/#horizontal-rules", 
             "text": "", 
             "title": "Horizontal Rules"
         }, 
         {
-            "location": "/about/#typographic-replacements", 
+            "location": "/demos/about/#typographic-replacements", 
             "text": "Enable typographer option to see result.   (C)   (R)   (TM) (p) (P) +-  test.. test... test..... test?..... test!....  !!!!!! ???? ,,  -- ---  \"Smartypants, double quotes\" and 'single quotes'", 
             "title": "Typographic replacements"
         }, 
         {
-            "location": "/about/#emphasis", 
+            "location": "/demos/about/#emphasis", 
             "text": "This is bold text  This is bold text  This is italic text  This is italic text  Strikethrough", 
             "title": "Emphasis"
         }, 
         {
-            "location": "/about/#blockquotes", 
+            "location": "/demos/about/#blockquotes", 
             "text": "Blockquotes can also be nested...   ...by using additional greater-than signs right next to each other...   ...or with spaces between arrows.", 
             "title": "Blockquotes"
         }, 
         {
-            "location": "/about/#lists", 
+            "location": "/demos/about/#lists", 
             "text": "Unordered   Create a list by starting a line with  + ,  - , or  *  Sub-lists are made by indenting 2 spaces:  Marker character change forces new list start:  Ac tristique libero volutpat at  Facilisis in pretium nisl aliquet  Nulla volutpat aliquam velit    Very easy!   Ordered   Lorem ipsum dolor sit amet  Consectetur adipiscing elit   Integer molestie lorem at massa    You can use sequential numbers...   ...or keep all the numbers as  1.   Start numbering with offset:   foo  bar", 
             "title": "Lists"
         }, 
         {
-            "location": "/about/#code", 
+            "location": "/demos/about/#code", 
             "text": "Inline  code  Indented code  1\n2\n3\n4 // Some comments\nline 1 of code\nline 2 of code\nline 3 of code   Block code \"fences\"  1 Sample text here...   Syntax highlighting  1\n2\n3\n4\n5 var   foo   =   function   ( bar )   { \n   return   bar ++ ;  };  console . log ( foo ( 5 ));", 
             "title": "Code"
         }, 
         {
-            "location": "/about/#tables", 
+            "location": "/demos/about/#tables", 
             "text": "Option  Description      data  path to data files to supply the data that will be passed into templates.    engine  engine to be used for processing templates. Handlebars is the default.    ext  extension to be used for dest files.     Right aligned columns     Option  Description      data  path to data files to supply the data that will be passed into templates.    engine  engine to be used for processing templates. Handlebars is the default.    ext  extension to be used for dest files.", 
             "title": "Tables"
         }, 
         {
-            "location": "/about/#links", 
+            "location": "/demos/about/#links", 
             "text": "link text  link with title  Autoconverted link  https://github.com/nodeca/pica  (enable linkify to see)", 
             "title": "Links"
         }, 
         {
-            "location": "/about/#images", 
+            "location": "/demos/about/#images", 
             "text": "Like links, Images also have a footnote style syntax   With a reference later in the document defining the URL location:", 
             "title": "Images"
         }, 
         {
-            "location": "/about/#plugins", 
+            "location": "/demos/about/#plugins", 
             "text": "The killer feature of  markdown-it  is very effective support of syntax plugins .", 
             "title": "Plugins"
         }, 
         {
-            "location": "/about/#emojies", 
+            "location": "/demos/about/#emojies", 
             "text": "Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:  Shortcuts (emoticons): :-) :-( 8-) ;)   see  how to change output  with twemoji.", 
             "title": "Emojies"
         }, 
         {
-            "location": "/about/#subscript-superscript", 
+            "location": "/demos/about/#subscript-superscript", 
             "text": "19^th^  H 2 O", 
             "title": "Subscript / Superscript"
         }, 
         {
-            "location": "/about/#_1", 
+            "location": "/demos/about/#_1", 
             "text": "++Inserted text++", 
             "title": "\\"
         }, 
         {
-            "location": "/about/#_2", 
+            "location": "/demos/about/#_2", 
             "text": "Marked text", 
             "title": "\\"
         }, 
         {
-            "location": "/about/#footnotes", 
+            "location": "/demos/about/#footnotes", 
             "text": "Footnote 1 link 1 .  Footnote 2 link 2 .  Inline footnote^[Text of inline footnote] definition.  Duplicated footnote reference 2 .", 
             "title": "Footnotes"
         }, 
         {
-            "location": "/about/#definition-lists", 
+            "location": "/demos/about/#definition-lists", 
             "text": "Term 1   Definition 1\nwith lazy continuation.   Term 2 with  inline markup   Definition 2  1 { some code, part of Definition 2 }   Third paragraph of definition 2.    Compact style:  Term 1\n  ~ Definition 1  Term 2\n  ~ Definition 2a\n  ~ Definition 2b", 
             "title": "Definition lists"
         }, 
         {
-            "location": "/about/#abbreviations", 
+            "location": "/demos/about/#abbreviations", 
             "text": "This is HTML abbreviation example.  It converts \"HTML\", but keep intact partial entries like \"xxxHTMLyyy\" and so on.  *[HTML]: Hyper Text Markup Language", 
             "title": "Abbreviations"
         }, 
         {
-            "location": "/about/#custom-containers", 
+            "location": "/demos/about/#custom-containers", 
             "text": "::: warning here be dragons \n:::      Footnote  can have markup  and multiple paragraphs.    Footnote text.", 
             "title": "Custom containers"
         }, 
         {
-            "location": "/more-testing/", 
+            "location": "/demos/more-testing/", 
             "text": "Specimen\n\n\nBody copy\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu libero,\nmollis sed massa vel, \nornare viverra ex\n. Mauris a ullamcorper lacus. Nullam\nurna elit, malesuada eget finibus ut, ullamcorper ac tortor. Vestibulum sodales\npulvinar nisl, pharetra aliquet est. Quisque volutpat erat ac nisi accumsan\ntempor.\n\n\nSed suscipit\n, orci non pretium pretium, quam mi gravida metus, vel\nvenenatis justo est condimentum diam. Maecenas non ornare justo. Nam a ipsum\neros. \nNulla aliquam\n orci sit amet nisl posuere malesuada. Proin aliquet\nnulla velit, quis ultricies orci feugiat et. \nUt tincidunt sollicitudin\n\ntincidunt. Aenean ullamcorper sit amet nulla at interdum.\n\n\nHeadings\n\n\nThe 3\nrd\n level\n\n\nThe 4\nth\n level\n\n\nThe 5\nth\n level\n\n\nThe 6\nth\n level\n\n\nHeadings \nwith secondary text\n\n\nThe 3\nrd\n level \nwith secondary text\n\n\nThe 4\nth\n level \nwith secondary text\n\n\nThe 5\nth\n level \nwith secondary text\n\n\nThe 6\nth\n level \nwith secondary text\n\n\nBlockquotes\n\n\n\n\nMorbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet rutrum.\n  Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Nam vehicula nunc\n  mauris, a ultricies libero efficitur sed. \nClass aptent\n taciti sociosqu ad\n  litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie\n  imperdiet consectetur.\n\n\n\n\nBlockquote nesting\n\n\n\n\nSed aliquet\n, neque at rutrum mollis, neque nisi tincidunt nibh, vitae\n  faucibus lacus nunc at lacus. Nunc scelerisque, quam id cursus sodales, lorem\n  \nlibero fermentum\n urna, ut efficitur elit ligula et nunc.\n\n\n\n\nMauris dictum mi lacus, sit amet pellentesque urna vehicula fringilla.\n    Ut sit amet placerat ante. Proin sed elementum nulla. Nunc vitae sem odio.\n    Suspendisse ac eros arcu. Vivamus orci erat, volutpat a tempor et, rutrum.\n    eu odio.\n\n\n\n\nSuspendisse rutrum facilisis risus\n, eu posuere neque commodo a.\n      Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec leo\n      bibendum, sodales mauris ut, tincidunt massa.\n\n\n\n\n\n\n\n\nOther content blocks\n\n\n\n\nVestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu\n  lectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,\n  sit amet laoreet nibh.\n  \n1\n2\n3\n4\n5\n6\n7\n8\n9\nvar\n \n_extends\n \n=\n \nfunction\n(\ntarget\n)\n \n{\n\n\n  \nfor\n \n(\nvar\n \ni\n \n=\n \n1\n;\n \ni\n \n \narguments\n.\nlength\n;\n \ni\n++\n)\n \n{\n\n\n    \nvar\n \nsource\n \n=\n \narguments\n[\ni\n];\n\n\n    \nfor\n \n(\nvar\n \nkey\n \nin\n \nsource\n)\n \n{\n\n\n      \ntarget\n[\nkey\n]\n \n=\n \nsource\n[\nkey\n];\n\n\n    \n}\n\n  \n}\n\n\n  \nreturn\n \ntarget\n;\n\n\n};\n\n\n\n\n\n\n\n\nPraesent at \nreturn\n \ntarget\n, sodales nibh vel, tempor felis. Fusce\n      vel lacinia lacus. Suspendisse rhoncus nunc non nisi iaculis ultrices.\n      Donec consectetur mauris non neque imperdiet, eget volutpat libero.\n\n\n\n\n\n\nLists\n\n\nUnordered lists\n\n\n\n\n\n\nSed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus\n  non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,\n  at elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.\n\n\n\n\nDuis mollis est eget nibh volutpat, fermentum aliquet dui mollis.\n\n\nNam vulputate tincidunt fringilla.\n\n\nNullam dignissim ultrices urna non auctor.\n\n\n\n\n\n\n\n\nAliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin ut\n  eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at aliquam\n  ac, aliquet sed mauris.\n\n\n\n\n\n\nNulla et rhoncus turpis. Mauris ultricies elementum leo. Duis efficitur\n  accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh\n  lacinia sed. Aenean in finibus diam.\n\n\n\n\n\n\nOrdered lists\n\n\n\n\n\n\nInteger vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis\n  elementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla\n  consectetur feugiat sodales.\n\n\n\n\n\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur\n  ridiculus mus. Aliquam ornare feugiat quam et egestas. Nunc id erat et quam\n  pellentesque lacinia eu vel odio.\n\n\n\n\n\n\nVivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet\n  quam enim, eu volutpat urna rutrum a. Nam vehicula nunc mauris, a\n  ultricies libero efficitur sed.\n\n\n\n\nMauris dictum mi lacus\n\n\nUt sit amet placerat ante\n\n\nSuspendisse ac eros arcu\n\n\n\n\n\n\n\n\nMorbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet\n  rutrum. Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Sed\n  aliquet, neque at rutrum mollis, neque nisi tincidunt nibh.\n\n\n\n\n\n\nPellentesque eget \nvar\n \n_extends\n ornare tellus, ut gravida mi.\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\nvar\n \n_extends\n \n=\n \nfunction\n(\ntarget\n)\n \n{\n\n  \nfor\n \n(\nvar\n \ni\n \n=\n \n1\n;\n \ni\n \n \narguments\n.\nlength\n;\n \ni\n++\n)\n \n{\n\n    \nvar\n \nsource\n \n=\n \narguments\n[\ni\n];\n\n\n    \nfor\n \n(\nvar\n \nkey\n \nin\n \nsource\n)\n \n{\n\n\n      \ntarget\n[\nkey\n]\n \n=\n \nsource\n[\nkey\n];\n\n    \n}\n\n  \n}\n\n  \nreturn\n \ntarget\n;\n\n\n};\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVivamus id mi enim. Integer id turpis sapien. Ut condimentum lobortis\n  sagittis. Aliquam purus tellus, faucibus eget urna at, iaculis venenatis\n  nulla. Vivamus a pharetra leo.\n\n\n\n\n\n\nDefinition lists\n\n\n\n\nLorem ipsum dolor sit amet\n\n\n\n\nSed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus\ntellus non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor\nlobortis orci, at elementum urna sodales vitae. In in vehicula nulla.\n\n\nDuis mollis est eget nibh volutpat, fermentum aliquet dui mollis.\nNam vulputate tincidunt fringilla.\nNullam dignissim ultrices urna non auctor.\n\n\n\n\nCras arcu libero\n\n\n\n\nAliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin\nut eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at\naliquam ac, aliquet sed mauris.\n\n\n\n\n\n\nCode blocks\n\n\nInline\n\n\nMorbi eget \ndapibus felis\n. Vivamus \nvenenatis porttitor\n tortor sit amet\nrutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra,\nper inceptos himenaeos. \nPellentesque aliquet quam enim\n, eu volutpat urna\nrutrum a.\n\n\nNam vehicula nunc \nreturn\n \ntarget\n mauris, a ultricies libero efficitur\nsed. Sed molestie imperdiet consectetur. Vivamus a pharetra leo. Pellentesque\neget ornare tellus, ut gravida mi. Fusce vel lacinia lacus.\n\n\nListing\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\nvar\n \n_extends\n \n=\n \nfunction\n(\ntarget\n)\n \n{\n\n  \nfor\n \n(\nvar\n \ni\n \n=\n \n1\n;\n \ni\n \n \narguments\n.\nlength\n;\n \ni\n++\n)\n \n{\n\n    \nvar\n \nsource\n \n=\n \narguments\n[\ni\n];\n\n    \nfor\n \n(\nvar\n \nkey\n \nin\n \nsource\n)\n \n{\n\n      \ntarget\n[\nkey\n]\n \n=\n \nsource\n[\nkey\n];\n\n    \n}\n\n  \n}\n\n\n  \nreturn\n \ntarget\n;\n\n\n};\n\n\n\n\n\n\n\nHorizontal rules\n\n\nAenean in finibus diam. Duis mollis est eget nibh volutpat, fermentum aliquet\ndui mollis. Nam vulputate tincidunt fringilla. Nullam dignissim ultrices urna\nnon auctor.\n\n\n\n\nInteger vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis\nelementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla\nconsectetur feugiat sodales.\n\n\nData tables\n\n\n\n\n\n\n\n\nSollicitudo / Pellentesi\n\n\nconsectetur\n\n\nadipiscing\n\n\nelit\n\n\narcu\n\n\nsed\n\n\n\n\n\n\n\n\n\n\nVivamus a pharetra\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nOrnare viverra ex\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nMauris a ullamcorper\n\n\nyes\n\n\nyes\n\n\npartial\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nNullam urna elit\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nMalesuada eget finibus\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nUllamcorper\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nVestibulum sodales\n\n\nyes\n\n\n-\n\n\nyes\n\n\n-\n\n\nyes\n\n\n\n\n\n\nPulvinar nisl\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n-\n\n\n-\n\n\n\n\n\n\nPharetra aliquet est\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nSed suscipit\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\nyes\n\n\n\n\n\n\nOrci non pretium\n\n\nyes\n\n\npartial\n\n\n-\n\n\n-\n\n\n-\n\n\n\n\n\n\n\n\nSed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus\nnon sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,\nat elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.\n\n\n\n\n\n\n\n\nLeft\n\n\nCenter\n\n\nRight\n\n\n\n\n\n\n\n\n\n\nLorem\n\n\ndolor\n\n\namet\n\n\n\n\n\n\nipsum\n\n\nsit\n\n\n\n\n\n\n\n\n\n\nVestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu\nlectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,\nsit amet laoreet nibh.\n\n\n\n  \n\n    \n\n    \n\n  \n\n  \n\n    \n\n      \nTable\n\n      \nwith colgroups (Pandoc)\n\n    \n\n  \n\n  \n\n    \n\n      \nLorem\n\n      \nipsum dolor sit amet.\n\n    \n\n    \n\n      \nSed sagittis\n\n      \neleifend rutrum. Donec vitae suscipit est.", 
             "title": "Second Demo"
         }, 
         {
-            "location": "/more-testing/#specimen", 
+            "location": "/demos/more-testing/#specimen", 
             "text": "", 
             "title": "Specimen"
         }, 
         {
-            "location": "/more-testing/#body-copy", 
+            "location": "/demos/more-testing/#body-copy", 
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras arcu libero,\nmollis sed massa vel,  ornare viverra ex . Mauris a ullamcorper lacus. Nullam\nurna elit, malesuada eget finibus ut, ullamcorper ac tortor. Vestibulum sodales\npulvinar nisl, pharetra aliquet est. Quisque volutpat erat ac nisi accumsan\ntempor.  Sed suscipit , orci non pretium pretium, quam mi gravida metus, vel\nvenenatis justo est condimentum diam. Maecenas non ornare justo. Nam a ipsum\neros.  Nulla aliquam  orci sit amet nisl posuere malesuada. Proin aliquet\nnulla velit, quis ultricies orci feugiat et.  Ut tincidunt sollicitudin \ntincidunt. Aenean ullamcorper sit amet nulla at interdum.", 
             "title": "Body copy"
         }, 
         {
-            "location": "/more-testing/#headings", 
+            "location": "/demos/more-testing/#headings", 
             "text": "", 
             "title": "Headings"
         }, 
         {
-            "location": "/more-testing/#the-3rd-level", 
+            "location": "/demos/more-testing/#the-3rd-level", 
             "text": "", 
             "title": "The 3rd level"
         }, 
         {
-            "location": "/more-testing/#the-4th-level", 
+            "location": "/demos/more-testing/#the-4th-level", 
             "text": "", 
             "title": "The 4th level"
         }, 
         {
-            "location": "/more-testing/#the-5th-level", 
+            "location": "/demos/more-testing/#the-5th-level", 
             "text": "", 
             "title": "The 5th level"
         }, 
         {
-            "location": "/more-testing/#the-6th-level", 
+            "location": "/demos/more-testing/#the-6th-level", 
             "text": "", 
             "title": "The 6th level"
         }, 
         {
-            "location": "/more-testing/#headings-with-secondary-text", 
+            "location": "/demos/more-testing/#headings-with-secondary-text", 
             "text": "", 
             "title": "Headings with secondary text"
         }, 
         {
-            "location": "/more-testing/#the-3rd-level-with-secondary-text", 
+            "location": "/demos/more-testing/#the-3rd-level-with-secondary-text", 
             "text": "", 
             "title": "The 3rd level with secondary text"
         }, 
         {
-            "location": "/more-testing/#the-4th-level-with-secondary-text", 
+            "location": "/demos/more-testing/#the-4th-level-with-secondary-text", 
             "text": "", 
             "title": "The 4th level with secondary text"
         }, 
         {
-            "location": "/more-testing/#the-5th-level-with-secondary-text", 
+            "location": "/demos/more-testing/#the-5th-level-with-secondary-text", 
             "text": "", 
             "title": "The 5th level with secondary text"
         }, 
         {
-            "location": "/more-testing/#the-6th-level-with-secondary-text", 
+            "location": "/demos/more-testing/#the-6th-level-with-secondary-text", 
             "text": "", 
             "title": "The 6th level with secondary text"
         }, 
         {
-            "location": "/more-testing/#blockquotes", 
+            "location": "/demos/more-testing/#blockquotes", 
             "text": "Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet rutrum.\n  Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Nam vehicula nunc\n  mauris, a ultricies libero efficitur sed.  Class aptent  taciti sociosqu ad\n  litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie\n  imperdiet consectetur.", 
             "title": "Blockquotes"
         }, 
         {
-            "location": "/more-testing/#blockquote-nesting", 
+            "location": "/demos/more-testing/#blockquote-nesting", 
             "text": "Sed aliquet , neque at rutrum mollis, neque nisi tincidunt nibh, vitae\n  faucibus lacus nunc at lacus. Nunc scelerisque, quam id cursus sodales, lorem\n   libero fermentum  urna, ut efficitur elit ligula et nunc.   Mauris dictum mi lacus, sit amet pellentesque urna vehicula fringilla.\n    Ut sit amet placerat ante. Proin sed elementum nulla. Nunc vitae sem odio.\n    Suspendisse ac eros arcu. Vivamus orci erat, volutpat a tempor et, rutrum.\n    eu odio.   Suspendisse rutrum facilisis risus , eu posuere neque commodo a.\n      Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec leo\n      bibendum, sodales mauris ut, tincidunt massa.", 
             "title": "Blockquote nesting"
         }, 
         {
-            "location": "/more-testing/#other-content-blocks", 
+            "location": "/demos/more-testing/#other-content-blocks", 
             "text": "Vestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu\n  lectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,\n  sit amet laoreet nibh.\n   1\n2\n3\n4\n5\n6\n7\n8\n9 var   _extends   =   function ( target )   {     for   ( var   i   =   1 ;   i     arguments . length ;   i ++ )   {       var   source   =   arguments [ i ];       for   ( var   key   in   source )   {         target [ key ]   =   source [ key ];       } \n   }     return   target ;  };     Praesent at  return   target , sodales nibh vel, tempor felis. Fusce\n      vel lacinia lacus. Suspendisse rhoncus nunc non nisi iaculis ultrices.\n      Donec consectetur mauris non neque imperdiet, eget volutpat libero.", 
             "title": "Other content blocks"
         }, 
         {
-            "location": "/more-testing/#lists", 
+            "location": "/demos/more-testing/#lists", 
             "text": "", 
             "title": "Lists"
         }, 
         {
-            "location": "/more-testing/#unordered-lists", 
+            "location": "/demos/more-testing/#unordered-lists", 
             "text": "Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus\n  non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,\n  at elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.   Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.  Nam vulputate tincidunt fringilla.  Nullam dignissim ultrices urna non auctor.     Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin ut\n  eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at aliquam\n  ac, aliquet sed mauris.    Nulla et rhoncus turpis. Mauris ultricies elementum leo. Duis efficitur\n  accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh\n  lacinia sed. Aenean in finibus diam.", 
             "title": "Unordered lists"
         }, 
         {
-            "location": "/more-testing/#ordered-lists", 
+            "location": "/demos/more-testing/#ordered-lists", 
             "text": "Integer vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis\n  elementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla\n  consectetur feugiat sodales.    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur\n  ridiculus mus. Aliquam ornare feugiat quam et egestas. Nunc id erat et quam\n  pellentesque lacinia eu vel odio.    Vivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet\n  quam enim, eu volutpat urna rutrum a. Nam vehicula nunc mauris, a\n  ultricies libero efficitur sed.   Mauris dictum mi lacus  Ut sit amet placerat ante  Suspendisse ac eros arcu     Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet\n  rutrum. Pellentesque aliquet quam enim, eu volutpat urna rutrum a. Sed\n  aliquet, neque at rutrum mollis, neque nisi tincidunt nibh.    Pellentesque eget  var   _extends  ornare tellus, ut gravida mi. 1\n2\n3\n4\n5\n6\n7\n8\n9 var   _extends   =   function ( target )   { \n   for   ( var   i   =   1 ;   i     arguments . length ;   i ++ )   { \n     var   source   =   arguments [ i ];       for   ( var   key   in   source )   {         target [ key ]   =   source [ key ]; \n     } \n   } \n   return   target ;  };        Vivamus id mi enim. Integer id turpis sapien. Ut condimentum lobortis\n  sagittis. Aliquam purus tellus, faucibus eget urna at, iaculis venenatis\n  nulla. Vivamus a pharetra leo.", 
             "title": "Ordered lists"
         }, 
         {
-            "location": "/more-testing/#definition-lists", 
+            "location": "/demos/more-testing/#definition-lists", 
             "text": "Lorem ipsum dolor sit amet   Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus\ntellus non sem sollicitudin, quis rutrum leo facilisis. Nulla tempor\nlobortis orci, at elementum urna sodales vitae. In in vehicula nulla.  Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.\nNam vulputate tincidunt fringilla.\nNullam dignissim ultrices urna non auctor.   Cras arcu libero   Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin\nut eros sed sapien ullamcorper consequat. Nunc ligula ante, fringilla at\naliquam ac, aliquet sed mauris.", 
             "title": "Definition lists"
         }, 
         {
-            "location": "/more-testing/#code-blocks", 
+            "location": "/demos/more-testing/#code-blocks", 
             "text": "", 
             "title": "Code blocks"
         }, 
         {
-            "location": "/more-testing/#inline", 
+            "location": "/demos/more-testing/#inline", 
             "text": "Morbi eget  dapibus felis . Vivamus  venenatis porttitor  tortor sit amet\nrutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra,\nper inceptos himenaeos.  Pellentesque aliquet quam enim , eu volutpat urna\nrutrum a.  Nam vehicula nunc  return   target  mauris, a ultricies libero efficitur\nsed. Sed molestie imperdiet consectetur. Vivamus a pharetra leo. Pellentesque\neget ornare tellus, ut gravida mi. Fusce vel lacinia lacus.", 
             "title": "Inline"
         }, 
         {
-            "location": "/more-testing/#listing", 
+            "location": "/demos/more-testing/#listing", 
             "text": "1\n2\n3\n4\n5\n6\n7\n8\n9 var   _extends   =   function ( target )   { \n   for   ( var   i   =   1 ;   i     arguments . length ;   i ++ )   { \n     var   source   =   arguments [ i ]; \n     for   ( var   key   in   source )   { \n       target [ key ]   =   source [ key ]; \n     } \n   }     return   target ;  };", 
             "title": "Listing"
         }, 
         {
-            "location": "/more-testing/#horizontal-rules", 
+            "location": "/demos/more-testing/#horizontal-rules", 
             "text": "Aenean in finibus diam. Duis mollis est eget nibh volutpat, fermentum aliquet\ndui mollis. Nam vulputate tincidunt fringilla. Nullam dignissim ultrices urna\nnon auctor.   Integer vehicula feugiat magna, a mollis tellus. Nam mollis ex ante, quis\nelementum eros tempor rutrum. Aenean efficitur lobortis lacinia. Nulla\nconsectetur feugiat sodales.", 
             "title": "Horizontal rules"
         }, 
         {
-            "location": "/more-testing/#data-tables", 
+            "location": "/demos/more-testing/#data-tables", 
             "text": "Sollicitudo / Pellentesi  consectetur  adipiscing  elit  arcu  sed      Vivamus a pharetra  yes  yes  yes  yes  yes    Ornare viverra ex  yes  yes  yes  yes  yes    Mauris a ullamcorper  yes  yes  partial  yes  yes    Nullam urna elit  yes  yes  yes  yes  yes    Malesuada eget finibus  yes  yes  yes  yes  yes    Ullamcorper  yes  yes  yes  yes  yes    Vestibulum sodales  yes  -  yes  -  yes    Pulvinar nisl  yes  yes  yes  -  -    Pharetra aliquet est  yes  yes  yes  yes  yes    Sed suscipit  yes  yes  yes  yes  yes    Orci non pretium  yes  partial  -  -  -     Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus tellus\nnon sem sollicitudin, quis rutrum leo facilisis. Nulla tempor lobortis orci,\nat elementum urna sodales vitae. In in vehicula nulla, quis ornare libero.     Left  Center  Right      Lorem  dolor  amet    ipsum  sit      Vestibulum vitae orci quis ante viverra ultricies ut eget turpis. Sed eu\nlectus dapibus, eleifend nulla varius, lobortis turpis. In ac hendrerit nisl,\nsit amet laoreet nibh.  \n   \n     \n     \n   \n   \n     \n       Table \n       with colgroups (Pandoc) \n     \n   \n   \n     \n       Lorem \n       ipsum dolor sit amet. \n     \n     \n       Sed sagittis \n       eleifend rutrum. Donec vitae suscipit est.", 
             "title": "Data tables"
         }, 
         {
-            "location": "/velocity-pid/", 
+            "location": "/guides/velocity-pid/", 
             "text": "Tuning a Velocity PID\n\n\nBased on the CTRE Software Reference Manual\n\n\nThis guide uses classes from Team 1540's reusable code library, \nROOSTER\n; consult its documentation for more info.\n\n\n\n\nUse Working Load When Tuning\n\n\nThroughout the process of tuning the mechanism, the motor should be under the same load as it will be used in competitions. For example, don't try to tune velocity PIDs on a drive train while the robot is off of the ground.\n\n\n\n\nStep 1: Determine Maximum Velocity Experimentally\n\n\nCreate simple test code to drive the mechanism at a specified throttle and report the velocity back to the SmartDashboard/Shuffleboard. \n\n\nFor mechanisms such as flywheels simply setting the throttle through a tunable value is sufficient.\n\n\nExample for Flywheel Control\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\npublic\n \nclass\n \nFlywheelTestRobot\n \nextends\n \nIterativeRobot\n \n{\n\n  \nprivate\n \nChickenTalon\n \nflywheelMaster\n \n=\n \nnew\n \nChickenTalon\n(\n0\n);\n\n  \nprivate\n \nChickenTalon\n \nflywheelSlave\n \n=\n \nnew\n \nChickenTalon\n(\n1\n);\n\n  \n@Tunable\n(\nThrottle\n)\n\n  \npublic\n \ndouble\n \nthrottle\n \n=\n \n0.0\n;\n\n\n  \n@Override\n\n  \npublic\n \nvoid\n \nrobotInit\n()\n \n{\n\n    \nAdjustableManager\n.\ngetInstance\n().\nadd\n(\nthis\n);\n\n\n    \nflywheelMaster\n.\nconfigSelectedFeedbackSensor\n(\nFeedbackDevice\n.\nQuadEncoder\n);\n\n    \nflywheelSlave\n.\nset\n(\nControlMode\n.\nFollower\n,\n \nflywheelMaster\n.\ngetDeviceID\n());\n\n  \n}\n\n\n  \n@Override\n\n  \npublic\n \nvoid\n \nrobotPeriodic\n()\n \n{\n\n    \nScheduler\n.\ngetInstance\n().\nrun\n();\n \n// needed for the AdjustableManager to work\n\n    \nSmartDashboard\n.\nputNumber\n(\nVelocity\n,\n \nflywheelMaster\n.\ngetSelectedSensorVelocity\n());\n\n  \n}\n\n\n  \n@Override\n\n  \npublic\n \nvoid\n \nteleopPeriodic\n()\n \n{\n\n    \nflywheelMaster\n.\nset\n(\nControlMode\n.\nPercentOutput\n,\n \nthrottle\n);\n\n  \n}\n\n\n}\n\n\n\n\n\n\nIn this case, simply set the motor output to 100% and monitor the velocity reading. Once it stabilizes, record it; this will be used to calculate F-gain.\nFor drivetrain tuning, this should be accomplished through joystick control to avoid hitting things. \n\n\nExample for Drivetrain Control\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\npublic\n \nclass\n \nDriveTestRobot\n \nextends\n \nIterativeRobot\n \n{\n\n  \nprivate\n \nstatic\n \nfinal\n \nint\n \nLEFT_Y_AXIS\n \n=\n \n1\n;\n\n  \nprivate\n \nstatic\n \nfinal\n \nint\n \nRIGHT_Y_AXIS\n \n=\n \n5\n;\n\n\n  \nprivate\n \nJoystick\n \njoystick\n \n=\n \nnew\n \nJoystick\n(\n0\n);\n\n  \nprivate\n \nChickenTalon\n \nlMaster\n \n=\n \nnew\n \nChickenTalon\n(\n1\n);\n\n  \nprivate\n \nChickenTalon\n \nlSlave1\n \n=\n \nnew\n \nChickenTalon\n(\n2\n);\n\n  \nprivate\n \nChickenTalon\n \nlSlave2\n \n=\n \nnew\n \nChickenTalon\n(\n3\n);\n\n  \nprivate\n \nChickenTalon\n \nrMaster\n \n=\n \nnew\n \nChickenTalon\n(\n4\n);\n\n  \nprivate\n \nChickenTalon\n \nrSlave1\n \n=\n \nnew\n \nChickenTalon\n(\n5\n);\n\n  \nprivate\n \nChickenTalon\n \nrSlave2\n \n=\n \nnew\n \nChickenTalon\n(\n6\n);\n\n\n  \n@Override\n\n  \npublic\n \nvoid\n \nrobotInit\n()\n \n{\n\n    \n// setting brake mode, inversions, ramp rates, etc. ommitted for brevity\n\n    \nlMaster\n.\nconfigSelectedFeedbackSensor\n(\nFeedbackDevice\n.\nQuadEncoder\n);\n\n    \nlSlave1\n.\nset\n(\nControlMode\n.\nFollower\n,\n \nlMaster\n.\ngetDeviceID\n());\n\n    \nlSlave2\n.\nset\n(\nControlMode\n.\nFollower\n,\n \nlMaster\n.\ngetDeviceID\n());\n\n\n    \nrMaster\n.\nconfigSelectedFeedbackSensor\n(\nFeedbackDevice\n.\nQuadEncoder\n);\n\n    \nrSlave1\n.\nset\n(\nControlMode\n.\nFollower\n,\n \nrMaster\n.\ngetDeviceID\n());\n\n    \nrSlave2\n.\nset\n(\nControlMode\n.\nFollower\n,\n \nrMaster\n.\ngetDeviceID\n());\n\n  \n}\n\n\n  \n@Override\n\n  \npublic\n \nvoid\n \nrobotPeriodic\n()\n \n{\n\n    \nSmartDashboard\n.\nputNumber\n(\nL Vel\n,\n \nlMaster\n.\ngetSelectedSensorVelocity\n());\n\n    \nSmartDashboard\n.\nputNumber\n(\nR Vel\n,\n \nrMaster\n.\ngetSelectedSensorVelocity\n());\n\n  \n}\n\n\n  \n@Override\n\n  \npublic\n \nvoid\n \nteleopPeriodic\n()\n \n{\n\n    \nlMaster\n.\nset\n(\nControlMode\n.\nPercentOutput\n,\n \njoystick\n.\ngetRawAxis\n(\nLEFT_Y_AXIS\n));\n\n    \nrMaster\n.\nset\n(\nControlMode\n.\nPercentOutput\n,\n \njoystick\n.\ngetRawAxis\n(\nRIGHT_Y_AXS\n));\n\n  \n}\n\n\n}\n\n\n\n\n\n\nIn this case, simply drive the robot up to full speed using joysticks (try not to hit anything) and check the maximum speed attained. (Graphs are highly useful for this.)\nStep 2: Determine F-gain\n\n\nOnce the maximum output of the mechanism is established, use it to calculate your F-gain. The F-gain determines the base motor output when a specific velocity is commanded and does not use feedback from encoders. Since Talon SRXs represent throttle as a 10-bit signed integer from -1023 to 1023, an F-gain of \n\\frac{1023}{500}\n\\frac{1023}{500}\n or 2.046 would cause the Talon to output 100% when a speed of 500 is commanded. In that sense, divide 1023 by your measured maximum speed to get your F-gain.\n\n\nStep 3: Tune P, I, and D\n\n\nWrite a test robot which constantly applies tunable P, I, and D coefficients, as well as commanding the motor to go to a specific velocity. For flywheels, this can be set directly through the SmartDashboard; for drivetrains, this can be set by multiplying joystick values by your predetermined maximum velocity.\n\n\nTune your PID coefficients according to the Talon SRX Software Reference Manual. Start with a P-gain of about 0.1 and the I and D values set to zero.\n\n\n\n\nDouble the P-gain until the system oscillates (too much) or until the system responds adequately.\n\n\nIf the mechanism is moving to swiftly, you can add D-gain to smooth the motion. Start with 10x the P-gain.\n\n\nIf the mechanism is not quite reaching the final target position (and P-gain cannot be increased further without hurting overall performance) begin adding I-gain. Start with 1/100\nth\n of the P-gain.\n\n\n\n\nWhen adjusting the I-gain, it is important to also adjust the I-Zone coefficient, which represents the size in milliseconds of the rolling window used to calculate the integral value. Try starting with an I-Zone value of 1000 (1 second). When increasing the I-Zone coefficient, the I coefficient should also be decreased.\n\n\nTuning Tips and Tricks\n\n\nIf (as in the case of a flywheel) you only care about keeping the mechanism at a certain speed when it is moving, and don't care about how fast it can stop, either prevent the motor from running in reverse (using the \nconfigPeakOutputForward()\n or \nconfigPeakOutputReverse()\n methods of \nChickenTalon\n) or add code to disable PID control when stopping.\n\n\nIf you find the mechanism consuming too much power or having trouble getting up to speed due to brownouts, add a small amount of closed-loop ramping using the \nconfigClosedLoopRamp()\n method. A good value for drivetrains is between 0.1 and 0.3 seconds. (Ramping is measured in seconds for the motor to ramp up from 0% to 100%.)\n\n\nUse the RoboRIO web dashboard to confirm that the PIDF coefficients are being set and that the CANTalon is receiving feedback from the correct encoder. \n\n\n\n\nNote\n\n\nRamp rates are \nnot\n displayed on the web dashboard; there is a field called \"ramp rate\", but setting it has no effect and it will always read 0. (See the CTRE Software Reference Manual, section 6.3.)\n\n\n\n\nCommon Problems\n\n\n\n\n\n\n\n\nProblem\n\n\nSolution\n\n\n\n\n\n\n\n\n\n\nMechanism is oscillating.\n\n\nIncrease the D coefficient. If this worsens the oscillation, reduce the P, I, or D coefficients one at a time to isolate the cause of the oscillation.\n\n\n\n\n\n\nMechanism is too slow to respond to a command.\n\n\nLower the amount of closed loop ramping using the \nconfigClosedLoopRamp()\n method. If that fails (ramping is already at 0), increase the F\u200b coefficient.\n\n\n\n\n\n\nMechanism velocity stabilizes at a value far from the goal.\n\n\nAdjust the F coefficient (with the other coefficients set to zero) until the actual speed is as close as possible to the goal.\n\n\n\n\n\n\nWhen P, I, or D is nonzero, the mechanism quickly accelerates to maximum output regardless of commanded velocity.\n\n\nFlip the sensor phase using \nsetSensorPhase()\n.", 
             "title": "PID Tuning"
         }, 
         {
-            "location": "/velocity-pid/#tuning-a-velocity-pid", 
+            "location": "/guides/velocity-pid/#tuning-a-velocity-pid", 
             "text": "Based on the CTRE Software Reference Manual  This guide uses classes from Team 1540's reusable code library,  ROOSTER ; consult its documentation for more info.   Use Working Load When Tuning  Throughout the process of tuning the mechanism, the motor should be under the same load as it will be used in competitions. For example, don't try to tune velocity PIDs on a drive train while the robot is off of the ground.", 
             "title": "Tuning a Velocity PID"
         }, 
         {
-            "location": "/velocity-pid/#step-1-determine-maximum-velocity-experimentally", 
+            "location": "/guides/velocity-pid/#step-1-determine-maximum-velocity-experimentally", 
             "text": "Create simple test code to drive the mechanism at a specified throttle and report the velocity back to the SmartDashboard/Shuffleboard.   For mechanisms such as flywheels simply setting the throttle through a tunable value is sufficient.  Example for Flywheel Control  1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25 public   class   FlywheelTestRobot   extends   IterativeRobot   { \n   private   ChickenTalon   flywheelMaster   =   new   ChickenTalon ( 0 ); \n   private   ChickenTalon   flywheelSlave   =   new   ChickenTalon ( 1 ); \n   @Tunable ( Throttle ) \n   public   double   throttle   =   0.0 ; \n\n   @Override \n   public   void   robotInit ()   { \n     AdjustableManager . getInstance (). add ( this ); \n\n     flywheelMaster . configSelectedFeedbackSensor ( FeedbackDevice . QuadEncoder ); \n     flywheelSlave . set ( ControlMode . Follower ,   flywheelMaster . getDeviceID ()); \n   } \n\n   @Override \n   public   void   robotPeriodic ()   { \n     Scheduler . getInstance (). run ();   // needed for the AdjustableManager to work \n     SmartDashboard . putNumber ( Velocity ,   flywheelMaster . getSelectedSensorVelocity ()); \n   } \n\n   @Override \n   public   void   teleopPeriodic ()   { \n     flywheelMaster . set ( ControlMode . PercentOutput ,   throttle ); \n   }  }    In this case, simply set the motor output to 100% and monitor the velocity reading. Once it stabilizes, record it; this will be used to calculate F-gain. For drivetrain tuning, this should be accomplished through joystick control to avoid hitting things.   Example for Drivetrain Control  1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36 public   class   DriveTestRobot   extends   IterativeRobot   { \n   private   static   final   int   LEFT_Y_AXIS   =   1 ; \n   private   static   final   int   RIGHT_Y_AXIS   =   5 ; \n\n   private   Joystick   joystick   =   new   Joystick ( 0 ); \n   private   ChickenTalon   lMaster   =   new   ChickenTalon ( 1 ); \n   private   ChickenTalon   lSlave1   =   new   ChickenTalon ( 2 ); \n   private   ChickenTalon   lSlave2   =   new   ChickenTalon ( 3 ); \n   private   ChickenTalon   rMaster   =   new   ChickenTalon ( 4 ); \n   private   ChickenTalon   rSlave1   =   new   ChickenTalon ( 5 ); \n   private   ChickenTalon   rSlave2   =   new   ChickenTalon ( 6 ); \n\n   @Override \n   public   void   robotInit ()   { \n     // setting brake mode, inversions, ramp rates, etc. ommitted for brevity \n     lMaster . configSelectedFeedbackSensor ( FeedbackDevice . QuadEncoder ); \n     lSlave1 . set ( ControlMode . Follower ,   lMaster . getDeviceID ()); \n     lSlave2 . set ( ControlMode . Follower ,   lMaster . getDeviceID ()); \n\n     rMaster . configSelectedFeedbackSensor ( FeedbackDevice . QuadEncoder ); \n     rSlave1 . set ( ControlMode . Follower ,   rMaster . getDeviceID ()); \n     rSlave2 . set ( ControlMode . Follower ,   rMaster . getDeviceID ()); \n   } \n\n   @Override \n   public   void   robotPeriodic ()   { \n     SmartDashboard . putNumber ( L Vel ,   lMaster . getSelectedSensorVelocity ()); \n     SmartDashboard . putNumber ( R Vel ,   rMaster . getSelectedSensorVelocity ()); \n   } \n\n   @Override \n   public   void   teleopPeriodic ()   { \n     lMaster . set ( ControlMode . PercentOutput ,   joystick . getRawAxis ( LEFT_Y_AXIS )); \n     rMaster . set ( ControlMode . PercentOutput ,   joystick . getRawAxis ( RIGHT_Y_AXS )); \n   }  }    In this case, simply drive the robot up to full speed using joysticks (try not to hit anything) and check the maximum speed attained. (Graphs are highly useful for this.)", 
             "title": "Step 1: Determine Maximum Velocity Experimentally"
         }, 
         {
-            "location": "/velocity-pid/#step-2-determine-f-gain", 
+            "location": "/guides/velocity-pid/#step-2-determine-f-gain", 
             "text": "Once the maximum output of the mechanism is established, use it to calculate your F-gain. The F-gain determines the base motor output when a specific velocity is commanded and does not use feedback from encoders. Since Talon SRXs represent throttle as a 10-bit signed integer from -1023 to 1023, an F-gain of  \\frac{1023}{500} \\frac{1023}{500}  or 2.046 would cause the Talon to output 100% when a speed of 500 is commanded. In that sense, divide 1023 by your measured maximum speed to get your F-gain.", 
             "title": "Step 2: Determine F-gain"
         }, 
         {
-            "location": "/velocity-pid/#step-3-tune-p-i-and-d", 
+            "location": "/guides/velocity-pid/#step-3-tune-p-i-and-d", 
             "text": "Write a test robot which constantly applies tunable P, I, and D coefficients, as well as commanding the motor to go to a specific velocity. For flywheels, this can be set directly through the SmartDashboard; for drivetrains, this can be set by multiplying joystick values by your predetermined maximum velocity.  Tune your PID coefficients according to the Talon SRX Software Reference Manual. Start with a P-gain of about 0.1 and the I and D values set to zero.   Double the P-gain until the system oscillates (too much) or until the system responds adequately.  If the mechanism is moving to swiftly, you can add D-gain to smooth the motion. Start with 10x the P-gain.  If the mechanism is not quite reaching the final target position (and P-gain cannot be increased further without hurting overall performance) begin adding I-gain. Start with 1/100 th  of the P-gain.   When adjusting the I-gain, it is important to also adjust the I-Zone coefficient, which represents the size in milliseconds of the rolling window used to calculate the integral value. Try starting with an I-Zone value of 1000 (1 second). When increasing the I-Zone coefficient, the I coefficient should also be decreased.", 
             "title": "Step 3: Tune P, I, and D"
         }, 
         {
-            "location": "/velocity-pid/#tuning-tips-and-tricks", 
+            "location": "/guides/velocity-pid/#tuning-tips-and-tricks", 
             "text": "If (as in the case of a flywheel) you only care about keeping the mechanism at a certain speed when it is moving, and don't care about how fast it can stop, either prevent the motor from running in reverse (using the  configPeakOutputForward()  or  configPeakOutputReverse()  methods of  ChickenTalon ) or add code to disable PID control when stopping.  If you find the mechanism consuming too much power or having trouble getting up to speed due to brownouts, add a small amount of closed-loop ramping using the  configClosedLoopRamp()  method. A good value for drivetrains is between 0.1 and 0.3 seconds. (Ramping is measured in seconds for the motor to ramp up from 0% to 100%.)  Use the RoboRIO web dashboard to confirm that the PIDF coefficients are being set and that the CANTalon is receiving feedback from the correct encoder.    Note  Ramp rates are  not  displayed on the web dashboard; there is a field called \"ramp rate\", but setting it has no effect and it will always read 0. (See the CTRE Software Reference Manual, section 6.3.)", 
             "title": "Tuning Tips and Tricks"
         }, 
         {
-            "location": "/velocity-pid/#common-problems", 
+            "location": "/guides/velocity-pid/#common-problems", 
             "text": "Problem  Solution      Mechanism is oscillating.  Increase the D coefficient. If this worsens the oscillation, reduce the P, I, or D coefficients one at a time to isolate the cause of the oscillation.    Mechanism is too slow to respond to a command.  Lower the amount of closed loop ramping using the  configClosedLoopRamp()  method. If that fails (ramping is already at 0), increase the F\u200b coefficient.    Mechanism velocity stabilizes at a value far from the goal.  Adjust the F coefficient (with the other coefficients set to zero) until the actual speed is as close as possible to the goal.    When P, I, or D is nonzero, the mechanism quickly accelerates to maximum output regardless of commanded velocity.  Flip the sensor phase using  setSensorPhase() .", 
             "title": "Common Problems"
+        }, 
+        {
+            "location": "/guides/debugging-robot-code/", 
+            "text": "Using IntelliJ IDEA's Debugger with Robot Code\n\n\nConfiguring GradleRIO\n\n\n\n\nMake sure to be using GradleRIO version 2018.01.06 or later\n\n\nIn your \nbuild.gradle\n, just below where it says \ntargets \n \nroborio\n, write \u201c\ndebug = true\n\u201d like so:\n    \n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\ndeploy\n \n{\n\n    \ntargets\n \n{\n\n        \ntarget\n(\nroborio\n,\n \njaci\n.\nopenrio\n.\ngradle\n.\nfrc\n.\nRoboRIO\n)\n \n{\n\n            \nteam\n \n=\n \nTEAM\n\n        \n}\n\n    \n}\n\n    \nartifacts\n \n{\n\n        \nartifact\n(\nfrcJava\n,\n \njaci\n.\nopenrio\n.\ngradle\n.\nfrc\n.\nFRCJavaArtifact\n)\n \n{\n\n            \ntargets\n \n \nroborio\n\n\n            \ndebug\n \n=\n \ntrue\n\n\n        \n}\n\n    \n}\n\n\n}\n\n\n\n\n\n\nDeploy your code normally. The driver station will say \u201cno robot code.\u201d This is normal.\n\n\n\n\n\n\nDanger\n\n\nWith \ndebug = true\n in your \nbuild.gradle\n file, the robot code will not start until you connect a debugger. With this in mind, \nnever\n deploy for a match while configured for debugging.\n\n\n\n\nConfiguring IntelliJ\n\n\n\n\nOpen the dropdown in the top right and select \nEdit Run/Debug Configurations\n\n\nClick the \n+\n sign and select \nRemote\n from the list\n\n\nName it \u201cRemote Robot Debug\u201d or something, it doesn\u2019t matter\n\n\nSet host to your RoboRIO's IP (usually \nroborio-\nYOUR-TEAM\n-frc.local\n) and port to \n8348\n\n\nIn the \nSearch sources using module\u2019s classpath\n dropdown select \u201c\n_main\u201d\n\n\nClick \nOK\n\n\nSelect your debug configuration from the top right dropdown and click the bug right next to it (or press \nCtrl\n+\nD\n).", 
+            "title": "Debugging Robot Code"
+        }, 
+        {
+            "location": "/guides/debugging-robot-code/#using-intellij-ideas-debugger-with-robot-code", 
+            "text": "", 
+            "title": "Using IntelliJ IDEA's Debugger with Robot Code"
+        }, 
+        {
+            "location": "/guides/debugging-robot-code/#configuring-gradlerio", 
+            "text": "Make sure to be using GradleRIO version 2018.01.06 or later  In your  build.gradle , just below where it says  targets    roborio , write \u201c debug = true \u201d like so:\n      1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13 deploy   { \n     targets   { \n         target ( roborio ,   jaci . openrio . gradle . frc . RoboRIO )   { \n             team   =   TEAM \n         } \n     } \n     artifacts   { \n         artifact ( frcJava ,   jaci . openrio . gradle . frc . FRCJavaArtifact )   { \n             targets     roborio               debug   =   true           } \n     }  }    Deploy your code normally. The driver station will say \u201cno robot code.\u201d This is normal.    Danger  With  debug = true  in your  build.gradle  file, the robot code will not start until you connect a debugger. With this in mind,  never  deploy for a match while configured for debugging.", 
+            "title": "Configuring GradleRIO"
+        }, 
+        {
+            "location": "/guides/debugging-robot-code/#configuring-intellij", 
+            "text": "Open the dropdown in the top right and select  Edit Run/Debug Configurations  Click the  +  sign and select  Remote  from the list  Name it \u201cRemote Robot Debug\u201d or something, it doesn\u2019t matter  Set host to your RoboRIO's IP (usually  roborio- YOUR-TEAM -frc.local ) and port to  8348  In the  Search sources using module\u2019s classpath  dropdown select \u201c _main\u201d  Click  OK  Select your debug configuration from the top right dropdown and click the bug right next to it (or press  Ctrl + D ).", 
+            "title": "Configuring IntelliJ"
+        }, 
+        {
+            "location": "/refsheet/getting-started/", 
+            "text": "Getting Started\n\n\nFirst, ensure you have Java 8 JDK and Eclipse/IntelliJ IDEA/some editor of your choice installed on your computer.\nYou can check your java version by running \njava -version\n from the command line.\n\n\nCreating A Project\n\n\nWith Eclipse\n\n\n\n\nGo to \nNew \n Other \n Gradle\n and enter a name\n\n\nClick \nFinish\n\n\n\n\nWith IntelliJ IDEA\n\n\n\n\nClick \nCreate New Project\n and select \nGradle\n, then click \nNext\n\n\nEnter \"myfirstproject\u201d in \nartifactId\n, then click \nNext\n\n\nCheck \nUse auto-import\n\n\nEnter a project name and select a directory (It\u2019s a good idea to create a new directory somewhere for robotics projects)\n\n\nClick \nFinish\n\n\n\n\nSetting Up Gradle\n\n\n\n\nDelete everything in your build.gradle file and copy-paste \nthis\n in\n\n\nCreate source folders (expand)\n\n\nIn the \njava\n folder, create a package called \norg.team1540.\nyourname\nfirstrobot\n\n\nCreate a Java class called \nRobot\n and replace its contents with the contents of \nthis file\n. Correct the package header at the top to whatever your package is called.\nOn line 9 of your \nbuild.gradle\n, change \norg.team1540.sample\n to your package name\n\n\nStart writing simple tank drive code for a robot (talk to a manager)\n\n\nFeel free to write all your code in \nRobot.java\n\n\n\n\nDeploying Your Code\n\n\n\n\nConnect to to the robot network (1540_something, ask a manager for the correct one)\n\n\npress \nCmd\n+\nShift\n+\nA\n (\nCtrl\n+\nShift\n+\nA\n on Windows)\n\n\nType \nExecute Gradle Task\n (it should come up after the first few letters) and press \nEnter\n\n\nType \ndeploy\n and press \nEnter\n again", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/refsheet/getting-started/#getting-started", 
+            "text": "First, ensure you have Java 8 JDK and Eclipse/IntelliJ IDEA/some editor of your choice installed on your computer.\nYou can check your java version by running  java -version  from the command line.", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/refsheet/getting-started/#creating-a-project", 
+            "text": "", 
+            "title": "Creating A Project"
+        }, 
+        {
+            "location": "/refsheet/getting-started/#with-eclipse", 
+            "text": "Go to  New   Other   Gradle  and enter a name  Click  Finish", 
+            "title": "With Eclipse"
+        }, 
+        {
+            "location": "/refsheet/getting-started/#with-intellij-idea", 
+            "text": "Click  Create New Project  and select  Gradle , then click  Next  Enter \"myfirstproject\u201d in  artifactId , then click  Next  Check  Use auto-import  Enter a project name and select a directory (It\u2019s a good idea to create a new directory somewhere for robotics projects)  Click  Finish", 
+            "title": "With IntelliJ IDEA"
+        }, 
+        {
+            "location": "/refsheet/getting-started/#setting-up-gradle", 
+            "text": "Delete everything in your build.gradle file and copy-paste  this  in  Create source folders (expand)  In the  java  folder, create a package called  org.team1540. yourname firstrobot  Create a Java class called  Robot  and replace its contents with the contents of  this file . Correct the package header at the top to whatever your package is called.\nOn line 9 of your  build.gradle , change  org.team1540.sample  to your package name  Start writing simple tank drive code for a robot (talk to a manager)  Feel free to write all your code in  Robot.java", 
+            "title": "Setting Up Gradle"
+        }, 
+        {
+            "location": "/refsheet/getting-started/#deploying-your-code", 
+            "text": "Connect to to the robot network (1540_something, ask a manager for the correct one)  press  Cmd + Shift + A  ( Ctrl + Shift + A  on Windows)  Type  Execute Gradle Task  (it should come up after the first few letters) and press  Enter  Type  deploy  and press  Enter  again", 
+            "title": "Deploying Your Code"
+        }, 
+        {
+            "location": "/refsheet/links/", 
+            "text": "Useful Links\n\n\nLibraries\n\n\n\n\nWPILib reference docs\n\n\nWPILib javadoc\n\n\nCTRE Toolsuite downloads\n\n\nTalon SRX/Victor SPX Software Reference Manual\n\n\nCTRE Phoenix javadoc\n\n\nReusable Object-Oriented Systems, Templates, and Executables for Robots (ROOSTER)\n\n\n\n\nDeploying, Running, and Driver Station\n\n\n\n\nGradleRIO\n\n\nExample \nbuild.gradle\n\n\nSmartDashboard docs\n\n\nShuffleboard docs\n\n\nInstructions for installing the FRC Update Suite (including driver station)\n\n\nDriver station setup and operation instructions\n\n\n\n\nRoboRIO and Control Systems\n\n\n\n\nRoboRIO network troubleshooting instructions\n\n\nRoboRIO firmware updating instructions\n\n\nImaging the RoboRIO\n\n\nRouter setup and configuration\n\n\n\n\nTeamwork\n\n\n\n\nSimple Guide to Git\n\n\nGoogle Java styleguide\n\n\nConfig for Eclipse\n\n\nConfig for Intellij IDEA", 
+            "title": "Useful Links"
+        }, 
+        {
+            "location": "/refsheet/links/#useful-links", 
+            "text": "", 
+            "title": "Useful Links"
+        }, 
+        {
+            "location": "/refsheet/links/#libraries", 
+            "text": "WPILib reference docs  WPILib javadoc  CTRE Toolsuite downloads  Talon SRX/Victor SPX Software Reference Manual  CTRE Phoenix javadoc  Reusable Object-Oriented Systems, Templates, and Executables for Robots (ROOSTER)", 
+            "title": "Libraries"
+        }, 
+        {
+            "location": "/refsheet/links/#deploying-running-and-driver-station", 
+            "text": "GradleRIO  Example  build.gradle  SmartDashboard docs  Shuffleboard docs  Instructions for installing the FRC Update Suite (including driver station)  Driver station setup and operation instructions", 
+            "title": "Deploying, Running, and Driver Station"
+        }, 
+        {
+            "location": "/refsheet/links/#roborio-and-control-systems", 
+            "text": "RoboRIO network troubleshooting instructions  RoboRIO firmware updating instructions  Imaging the RoboRIO  Router setup and configuration", 
+            "title": "RoboRIO and Control Systems"
+        }, 
+        {
+            "location": "/refsheet/links/#teamwork", 
+            "text": "Simple Guide to Git  Google Java styleguide  Config for Eclipse  Config for Intellij IDEA", 
+            "title": "Teamwork"
         }
     ]
 }

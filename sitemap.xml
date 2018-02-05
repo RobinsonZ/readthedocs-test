@@ -12,13 +12,13 @@
     
         
     <url>
-     <loc>https://robinsonz.github.io/readthedocs-test//about/</loc>
+     <loc>https://robinsonz.github.io/readthedocs-test//demos/about/</loc>
      <lastmod>2018-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>https://robinsonz.github.io/readthedocs-test//more-testing/</loc>
+     <loc>https://robinsonz.github.io/readthedocs-test//demos/more-testing/</loc>
      <lastmod>2018-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -26,11 +26,35 @@
     
 
     
+        
     <url>
-     <loc>https://robinsonz.github.io/readthedocs-test//velocity-pid/</loc>
+     <loc>https://robinsonz.github.io/readthedocs-test//guides/velocity-pid/</loc>
      <lastmod>2018-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>https://robinsonz.github.io/readthedocs-test//guides/debugging-robot-code/</loc>
+     <lastmod>2018-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://robinsonz.github.io/readthedocs-test//refsheet/getting-started/</loc>
+     <lastmod>2018-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://robinsonz.github.io/readthedocs-test//refsheet/links/</loc>
+     <lastmod>2018-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>
