@@ -27,6 +27,6 @@
 1. Click the `+` sign and select `Remote` from the list
 1. Name it “Remote Robot Debug” or something, it doesn’t matter
 1. Set host to your RoboRIO's IP (usually `roborio-<YOUR-TEAM>-frc.local`) and port to `8348`
-1. In the `Search sources using module’s classpath` dropdown select “<your project name>_main”
+1. In the `Search sources using module’s classpath` dropdown select "&lt;your-project-name&gt;_main"
 1. Click `OK`
 1. Select your debug configuration from the top right dropdown and click the bug right next to it (or press ++ctrl+d++).
