@@ -9,7 +9,7 @@ edit_uri: blob/master/docs/
 
 theme:
   name: 'material'
-  theme-dir: ''
+  custom_dir: 'theme'
   palette:
     primary: 'blue'
     accent: 'amber'
@@ -58,6 +58,9 @@ markdown_extensions:
 # Required for Arithmatex extension (https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/#loading-mathjax)
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+  - 'css/key-icons.css'
 
 pages:
     - Home:
