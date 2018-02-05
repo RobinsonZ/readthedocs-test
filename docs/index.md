@@ -9,7 +9,7 @@ FEATHER is maintained by FRC Team 1540, the Flaming Chickens as a resource for a
 * Logo: [Feather Icons](https://feathericons.com)[^1]
 * Site generation: [MkDocs](http://www.mkdocs.org)
 * Theme: [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
-* Hosting: [ReadTheDocs](https://readthedocs.org)
+* Hosting: [GitHub Pages](https://pages.github.com)
 
 ## License
 This site is licensed under the [MIT License](https://opensource.org/licenses/MIT).
