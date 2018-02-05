@@ -1,14 +1,22 @@
 site_name: FEATHER
+site_description: Team 1540's Free Easy-Access Team Handbook for Efficient Robotics.
+site_author: FRC Team 1540, The Flaming Chickens
+site_url: https://robinsonz.github.io/readthedocs-test/
+
+repo_name: robinsonz/readthedocs-test
+repo_url: https://github.com/robinsonz/readthedocs-test/
+edit_uri: blob/master/docs/
 
 theme:
   name: 'material'
   theme-dir: ''
   palette:
     primary: 'blue'
-    accent: 'orange'
+    accent: 'amber'
   feature:
     tabs: true
   logo: 'images/feather.svg'
+
 extra:
   social:
     - type: 'globe'
@@ -23,20 +31,22 @@ extra:
       link: 'https://www.instagram.com/1540flamingchickens/'
 
 markdown_extensions:
-  - admonition
-  - codehilite:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
       guess_lang: false
-  - toc:
+      linenums: true
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
       permalink: true
-  - footnotes
-  - meta
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
-  - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.inlinehilite
+  - pymdownx.keys
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
@@ -44,3 +54,14 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+# Required for Arithmatex extension (https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/#loading-mathjax)
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+pages:
+    - Home: index.md
+    - Markdown Demos:
+        - First Demo: about.md
+        - Second Demo: more-testing.md
+    - PID Tuning: velocity-pid.md
