@@ -3,7 +3,31 @@
 
     
     <url>
-     <loc>/</loc>
+     <loc>https://robinsonz.github.io/readthedocs-test//</loc>
+     <lastmod>2018-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://robinsonz.github.io/readthedocs-test//about/</loc>
+     <lastmod>2018-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://robinsonz.github.io/readthedocs-test//more-testing/</loc>
+     <lastmod>2018-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://robinsonz.github.io/readthedocs-test//velocity-pid/</loc>
      <lastmod>2018-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
