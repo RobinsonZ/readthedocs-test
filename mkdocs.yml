@@ -62,6 +62,11 @@ extra_javascript:
 pages:
     - Home: index.md
     - Markdown Demos:
-        - First Demo: about.md
-        - Second Demo: more-testing.md
-    - PID Tuning: velocity-pid.md
+      - First Demo: demos/about.md
+      - Second Demo: demos/more-testing.md
+    - Guides:
+      - PID Tuning: guides/velocity-pid.md
+      - Debugging Robot Code: guides/debugging-robot-code.md
+    - Reference Sheet:
+      - Getting Started: refsheet/getting-started.md
+      - Useful Links: refsheet/links.md
