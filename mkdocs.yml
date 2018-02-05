@@ -9,18 +9,18 @@ theme:
   feature:
     tabs: true
   logo: 'images/feather.svg'
-  extra:
-    social:
-      - type: 'globe'
-        link: 'https://team1540.org'
-      - type: 'github'
-        link: 'https://github.com/flamingchickens1540'
-      - type: 'twitter'
-        link: 'https://twitter.com/flamingchickens'
-      - type: 'facebook'
-        link: 'https://www.facebook.com/FRC1540/'
-      - type: 'instagram'
-        link: 'https://www.instagram.com/1540flamingchickens/'
+extra:
+  social:
+    - type: 'globe'
+      link: 'https://team1540.org'
+    - type: 'github'
+      link: 'https://github.com/flamingchickens1540'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/FRC1540/'
+    - type: 'twitter'
+      link: 'https://twitter.com/flamingchickens'
+    - type: 'instagram'
+      link: 'https://www.instagram.com/1540flamingchickens/'
 
 markdown_extensions:
   - admonition
