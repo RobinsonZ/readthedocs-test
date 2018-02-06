@@ -1,0 +1,2017 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Team 1540's Free Easy-Access Team Handbook for Efficient Robotics.">
+      
+      
+        <link rel="canonical" href="https://robinsonz.github.io/readthedocs-test/demos/tutorial/">
+      
+      
+        <meta name="author" content="FRC Team 1540, The Flaming Chickens">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.6.0">
+    
+    
+      
+        <title>Tutorial - FEATHER</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.aa3de92b.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.792431c1.css">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../../css/key-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="amber">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <a href="#a-brief-overview-of-markdown" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://robinsonz.github.io/readthedocs-test/" title="FEATHER" class="md-header-nav__button md-logo">
+          
+            <img src="../../images/feather.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                FEATHER
+              </span>
+              <span class="md-header-nav__topic">
+                Tutorial
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/robinsonz/readthedocs-test/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      robinsonz/readthedocs-test
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../.." title="Home" class="md-tabs__link">
+          Home
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../about/" title="Markdown Demos" class="md-tabs__link md-tabs__link--active">
+          Markdown Demos
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../guides/velocity-pid/" title="Guides" class="md-tabs__link">
+          Guides
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../refsheet/getting-started/" title="Reference Sheet" class="md-tabs__link">
+          Reference Sheet
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <img src="../../images/feather.svg" width="24" height="24">
+      
+    </span>
+    FEATHER
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/robinsonz/readthedocs-test/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      robinsonz/readthedocs-test
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Welcome to FEATHER" class="md-nav__link">
+      Welcome to FEATHER
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../legal/" title="Attribution" class="md-nav__link">
+      Attribution
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Markdown Demos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Markdown Demos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../about/" title="First Demo" class="md-nav__link">
+      First Demo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../more-testing/" title="Second Demo" class="md-nav__link">
+      Second Demo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Tutorial
+      </label>
+    
+    <a href="./" title="Tutorial" class="md-nav__link md-nav__link--active">
+      Tutorial
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#headings" title="Headings" class="md-nav__link">
+    Headings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heading-1" title="Heading 1" class="md-nav__link">
+    Heading 1
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading-2" title="Heading 2" class="md-nav__link">
+    Heading 2
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading-3" title="Heading 3" class="md-nav__link">
+    Heading 3
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading-4" title="Heading 4" class="md-nav__link">
+    Heading 4
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading-5" title="Heading 5" class="md-nav__link">
+    Heading 5
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inline-markup" title="Inline Markup" class="md-nav__link">
+    Inline Markup
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-formatting" title="Basic Formatting" class="md-nav__link">
+    Basic Formatting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links" title="Links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#syntax-highlighting" title="Syntax Highlighting" class="md-nav__link">
+    Syntax Highlighting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#math" title="Math" class="md-nav__link">
+    Math
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keys" title="Keys" class="md-nav__link">
+    Keys
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blocks" title="Blocks" class="md-nav__link">
+    Blocks
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#code-blocks" title="Code Blocks" class="md-nav__link">
+    Code Blocks
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax-highlighting_1" title="Syntax Highlighting" class="md-nav__link">
+    Syntax Highlighting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#highlighting-lines" title="Highlighting Lines" class="md-nav__link">
+    Highlighting Lines
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#admonition-blocks" title="Admonition Blocks" class="md-nav__link">
+    Admonition Blocks
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titles" title="Titles" class="md-nav__link">
+    Titles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#details" title="Details" class="md-nav__link">
+    Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#types" title="Types" class="md-nav__link">
+    Types
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blockquotes" title="Blockquotes" class="md-nav__link">
+    Blockquotes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#math_1" title="Math" class="md-nav__link">
+    Math
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lists" title="Lists" class="md-nav__link">
+    Lists
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unordered" title="Unordered" class="md-nav__link">
+    Unordered
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ordered" title="Ordered" class="md-nav__link">
+    Ordered
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indentation" title="Indentation" class="md-nav__link">
+    Indentation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-lists" title="Task Lists" class="md-nav__link">
+    Task Lists
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tables" title="Tables" class="md-nav__link">
+    Tables
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simple" title="Simple" class="md-nav__link">
+    Simple
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced" title="Advanced" class="md-nav__link">
+    Advanced
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images" title="Images" class="md-nav__link">
+    Images
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guides/velocity-pid/" title="PID Tuning" class="md-nav__link">
+      PID Tuning
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../guides/debugging-robot-code/" title="Debugging Robot Code" class="md-nav__link">
+      Debugging Robot Code
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Reference Sheet
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Reference Sheet
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../refsheet/getting-started/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../refsheet/links/" title="Useful Links" class="md-nav__link">
+      Useful Links
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#headings" title="Headings" class="md-nav__link">
+    Headings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heading-1" title="Heading 1" class="md-nav__link">
+    Heading 1
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading-2" title="Heading 2" class="md-nav__link">
+    Heading 2
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading-3" title="Heading 3" class="md-nav__link">
+    Heading 3
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading-4" title="Heading 4" class="md-nav__link">
+    Heading 4
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heading-5" title="Heading 5" class="md-nav__link">
+    Heading 5
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inline-markup" title="Inline Markup" class="md-nav__link">
+    Inline Markup
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basic-formatting" title="Basic Formatting" class="md-nav__link">
+    Basic Formatting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links" title="Links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#syntax-highlighting" title="Syntax Highlighting" class="md-nav__link">
+    Syntax Highlighting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#math" title="Math" class="md-nav__link">
+    Math
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keys" title="Keys" class="md-nav__link">
+    Keys
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blocks" title="Blocks" class="md-nav__link">
+    Blocks
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#code-blocks" title="Code Blocks" class="md-nav__link">
+    Code Blocks
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syntax-highlighting_1" title="Syntax Highlighting" class="md-nav__link">
+    Syntax Highlighting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#highlighting-lines" title="Highlighting Lines" class="md-nav__link">
+    Highlighting Lines
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#admonition-blocks" title="Admonition Blocks" class="md-nav__link">
+    Admonition Blocks
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titles" title="Titles" class="md-nav__link">
+    Titles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#details" title="Details" class="md-nav__link">
+    Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#types" title="Types" class="md-nav__link">
+    Types
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blockquotes" title="Blockquotes" class="md-nav__link">
+    Blockquotes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#math_1" title="Math" class="md-nav__link">
+    Math
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lists" title="Lists" class="md-nav__link">
+    Lists
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unordered" title="Unordered" class="md-nav__link">
+    Unordered
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ordered" title="Ordered" class="md-nav__link">
+    Ordered
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indentation" title="Indentation" class="md-nav__link">
+    Indentation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-lists" title="Task Lists" class="md-nav__link">
+    Task Lists
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tables" title="Tables" class="md-nav__link">
+    Tables
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simple" title="Simple" class="md-nav__link">
+    Simple
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced" title="Advanced" class="md-nav__link">
+    Advanced
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images" title="Images" class="md-nav__link">
+    Images
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/robinsonz/readthedocs-test/blob/master/docs/demos/tutorial.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="a-brief-overview-of-markdown">A Brief Overview Of Markdown<a class="headerlink" href="#a-brief-overview-of-markdown" title="Permanent link">&para;</a></h1>
+<p>Due to the variety of extensions installed, this site has a specific flavor of markdown in use. This document shows every possible markdown element, and the syntax to produce it.</p>
+<h2 id="headings">Headings<a class="headerlink" href="#headings" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>## Heading 1
+
+### Heading 2
+
+#### Heading 3
+
+##### Heading 4
+
+###### Heading 5
+</pre></div>
+</td></tr></table>
+
+<h2 id="heading-1">Heading 1<a class="headerlink" href="#heading-1" title="Permanent link">&para;</a></h2>
+<h3 id="heading-2">Heading 2<a class="headerlink" href="#heading-2" title="Permanent link">&para;</a></h3>
+<h4 id="heading-3">Heading 3<a class="headerlink" href="#heading-3" title="Permanent link">&para;</a></h4>
+<h5 id="heading-4">Heading 4<a class="headerlink" href="#heading-4" title="Permanent link">&para;</a></h5>
+<h6 id="heading-5">Heading 5<a class="headerlink" href="#heading-5" title="Permanent link">&para;</a></h6>
+<h2 id="inline-markup">Inline Markup<a class="headerlink" href="#inline-markup" title="Permanent link">&para;</a></h2>
+<h3 id="basic-formatting">Basic Formatting<a class="headerlink" href="#basic-formatting" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>This is some prose. 
+You can format text as **bold**, *italic*, 
+_italic (alternative)_, ~~strikethrough~~, `code`, 
+^superscript^ or ~subscript~.
+</pre></div>
+</td></tr></table>
+
+<p>This is some prose. 
+You can format text as <strong>bold</strong>, <em>italic</em>, 
+<em>italic (alternative)</em>, <del>strikethrough</del>, <code>code</code>, 
+<sup>superscript</sup> or <sub>subscript</sub>.</p>
+<h3 id="links">Links<a class="headerlink" href="#links" title="Permanent link">&para;</a></h3>
+<p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Add a plain link (&lt;https://google.com&gt;) or an 
+[inline link](https://www.chiefdelphi.com).
+
+Link to other files within the documentation, 
+such as the [home page](../index.md). Links are resolved relative
+to the directory of their containing file.
+
+Link to sections within the page: [Heading Examples](#headings)
+</pre></div>
+</td></tr></table>
+Add a plain link (<a href="https://google.com">https://google.com</a>) or an <a href="https://www.chiefdelphi.com">inline link</a>.</p>
+<p>You can additionally link to other files within the documentation, 
+such as the <a href="../..">home page</a>. Links are resolved relative
+to the directory of their containing file.</p>
+<p>Link to sections within the page: <a href="#headings">Heading Examples</a></p>
+<h3 id="syntax-highlighting">Syntax Highlighting<a class="headerlink" href="#syntax-highlighting" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>You can add syntax highlighting to inline code by 
+specifying the language: `:::java double f = 1023 / velocity;`
+</pre></div>
+</td></tr></table>
+
+<p>You can add syntax highlighting to inline code by 
+specifying the language: <code class="codehilite"><span class="kt">double</span> <span class="n">f</span> <span class="o">=</span> <span class="mi">1023</span> <span class="o">/</span> <span class="n">velocity</span><span class="o">;</span></code></p>
+<h3 id="math">Math<a class="headerlink" href="#math" title="Permanent link">&para;</a></h3>
+<p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Inline equations using TeX syntax: $a^2 + b^2 = c^2$ 
+</pre></div>
+</td></tr></table>
+Inline equations using TeX syntax: <span><span class="MathJax_Preview">a^2 + b^2 = c^2</span><script type="math/tex">a^2 + b^2 = c^2</script></span> </p>
+<h3 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>You can insert formatted key combinations.
+
+++ctrl+alt+delete++
+
+++cmd+tab++
+
+Press ++bracket-left+bracket-right+backslash++ to enable your robot.
+
+You can insert custom text:
+
+It&#39;s a good idea to bind straight forward and straight backward to 
+++&quot;RT&quot;++ and ++&quot;LT&quot;++ on your controller.
+</pre></div>
+</td></tr></table>
+
+<p>You can insert formatted key combinations.</p>
+<p><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-alt">Alt</kbd><span>+</span><kbd class="key-delete">Del</kbd></span></p>
+<p><span class="keys"><kbd class="key-command">Cmd</kbd><span>+</span><kbd class="key-tab">Tab</kbd></span></p>
+<p>Press <span class="keys"><kbd class="key-bracket-left">[</kbd><span>+</span><kbd class="key-bracket-right">]</kbd><span>+</span><kbd class="key-backslash">\</kbd></span> to enable your robot.</p>
+<p>You can insert custom text: </p>
+<p>It's a good idea to bind straight forward and straight backward to 
+<span class="keys"><kbd>RT</kbd></span> and <span class="keys"><kbd>LT</kbd></span> on your controller.</p>
+<p>A full list of key codes is avaiable <a href="https://facelessuser.github.io/pymdown-extensions/extensions/keys/">here</a>.</p>
+<h2 id="blocks">Blocks<a class="headerlink" href="#blocks" title="Permanent link">&para;</a></h2>
+<p>Block items such as code, blockquotes, or admonitions interrupt the paragraph and exist on their own line.</p>
+<h3 id="code-blocks">Code Blocks<a class="headerlink" href="#code-blocks" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Create generic code blocks:
+```
+./gradlew deploy
+```
+</pre></div>
+</td></tr></table>
+
+<p>Create generic code blocks:
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>./gradlew deploy
+</pre></div>
+</td></tr></table></p>
+<hr />
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>You can also create them by indenting with four spaces 
+(this is useful for nesting):
+
+    ./gradlew deploy
+</pre></div>
+</td></tr></table>
+
+<p>You can also create them by indenting with four spaces 
+(this is useful for nesting):</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>./gradlew deploy
+</pre></div>
+</td></tr></table>
+
+<h4 id="syntax-highlighting_1">Syntax Highlighting<a class="headerlink" href="#syntax-highlighting_1" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>    Specify a language to add syntax highlighting:
+
+    ```python
+    print &quot;Hello world!&quot;
+    ```
+
+Specify a language to add syntax highlighting:
+
+```python
+print &quot;Hello world!&quot;
+```
+A list of supported languages is [here](http://pygments.org/languages/).
+</pre></div>
+</td></tr></table>
+
+<h4 id="highlighting-lines">Highlighting Lines<a class="headerlink" href="#highlighting-lines" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>You can highlight specific lines to emphasize them.
+```java hl_lines=&quot;3&quot;
+public class Main {
+  public static void main(String[] args) {
+    System.out.println(&quot;Hello world!&quot;);
+  }
+}
+```
+</pre></div>
+</td></tr></table>
+
+<p>You can highlight specific lines to emphasize them.
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+<span class="hll">    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello world!&quot;</span><span class="o">);</span>
+</span>  <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+</td></tr></table></p>
+<hr />
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Multiple lines are space-seperated.
+
+```python hl_lines=&quot;4 5&quot;
+x = 1
+y = 2
+
+z = x + y
+print z
+```
+</pre></div>
+</td></tr></table>
+
+<p>Multiple lines are space-seperated.</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
+
+<span class="hll"><span class="n">z</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+</span><span class="hll"><span class="k">print</span> <span class="n">z</span>
+</span></pre></div>
+</td></tr></table>
+
+<h3 id="admonition-blocks">Admonition Blocks<a class="headerlink" href="#admonition-blocks" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! note 
+    Create a separate box with contents.
+
+!!! info
+    Blocks can contain multiple paragraphs.
+
+    They can also contain other elements like code:
+    ```python
+    print &quot;Hello, world!&quot;
+    ```
+
+    !!! tip 
+        They can even contain other blocks!
+</pre></div>
+</td></tr></table>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Create a separate box with contents.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Blocks can contain multiple paragraphs.</p>
+<p>They can also contain other elements like code:
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="k">print</span> <span class="s2">&quot;Hello, world!&quot;</span>
+</pre></div>
+</td></tr></table></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>They can even contain other blocks!</p>
+</div>
+</div>
+<h4 id="titles">Titles<a class="headerlink" href="#titles" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! note &quot;Blocks can have custom titles.&quot;
+    The identifier just determines the icon and color.
+
+!!! note &quot;&quot;
+    You can omit the title entirely.
+
+!!! note &quot;Or have just the title.&quot;
+</pre></div>
+</td></tr></table>
+
+<div class="admonition note">
+<p class="admonition-title">Blocks can have custom titles.</p>
+<p>The identifier just determines the icon and color.</p>
+</div>
+<div class="admonition note">
+<p>You can omit the title entirely.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Or have just the title.</p>
+</div>
+<h4 id="details">Details<a class="headerlink" href="#details" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Create detail blocks by replacing `!!!` with `???`.
+
+??? question &quot;What happens when I click on a detail block?&quot;
+    It opens!
+</pre></div>
+</td></tr></table>
+
+<p>Create detail blocks by replacing <code>!!!</code> with <code>???</code>.</p>
+<details class="question"><summary>What happens when I click on a detail block?</summary><p>It opens!</p></details><hr />
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>You can also make blocks expanded by default with a `+`.
+
+???+ tip
+    Use Admonition and Detail blocks for all sorts of information.
+</pre></div>
+</td></tr></table>
+
+<p>You can also make blocks expanded by default with a <code>+</code>.</p>
+<details class="tip" open="open"><summary>Tip</summary><p>Use Admonition and Detail blocks for all sorts of information.</p></details><h4 id="types">Types<a class="headerlink" href="#types" title="Permanent link">&para;</a></h4>
+<details class="example"><summary>Types of Admonition Blocks</summary><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! note
+    Blocks are cool.
+
+!!! seealso
+    Admonition types are also specified in the Material Theme docs.
+</pre></div>
+</td></tr></table>
+<div class="admonition note"><p class="admonition-title">Note</p><p>Blocks are cool.</p></div><div class="admonition seealso"><p class="admonition-title">Seealso</p><p>Admonition types are also specified in the Material Theme docs.</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! abstract
+    This is a page detailing this site&#39;s Markdown syntax.
+
+!!! summary
+    You can use admonition blocks to highlight specific info.
+
+!!! tldr
+    Use three exclamation points followed by an ID.
+</pre></div>
+</td></tr></table>
+<div class="admonition abstract"><p class="admonition-title">Abstract</p><p>This is a page detailing this site's Markdown syntax.</p></div><div class="admonition summary"><p class="admonition-title">Summary</p><p>You can use admonition blocks to highlight specific info.</p></div><div class="admonition tldr"><p class="admonition-title">Tldr</p><p>Use three exclamation points followed by an ID.</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! info
+    This is an information block.
+
+!!! todo
+    Write more docs!
+</pre></div>
+</td></tr></table>
+<div class="admonition info"><p class="admonition-title">Info</p><p>This is an information block.</p></div><div class="admonition todo"><p class="admonition-title">Todo</p><p>Write more docs!</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! tip
+    Insert a horizontal line with `---`.
+
+!!! hint
+    Use an IDE so tabs aren&#39;t annoying.
+
+!!! important
+    Always brush your teeth.
+</pre></div>
+</td></tr></table>
+<div class="admonition tip"><p class="admonition-title">Tip</p><p>Insert a horizontal line with <code>---</code>.</p></div><div class="admonition hint"><p class="admonition-title">Hint</p><p>Use an IDE so tabs aren't annoying.</p></div><div class="admonition important"><p class="admonition-title">Important</p><p>Always brush your teeth.</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! success
+    You made an admonition block!
+
+!!! check
+    Don&#39;t forget to turn the stove off before leaving home.
+
+!!! done
+    You did it!
+</pre></div>
+</td></tr></table>
+<div class="admonition success"><p class="admonition-title">Success</p><p>You made an admonition block!</p></div><div class="admonition check"><p class="admonition-title">Check</p><p>Don't forget to turn the stove off before leaving home.</p></div><div class="admonition done"><p class="admonition-title">Done</p><p>You did it!</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! question
+    What is the meaning of life?
+
+!!! help
+    Help me, Obi-Wan Kenobi. You&#39;re my only hope.
+
+!!! faq
+    FAQ stands for Frequently Asked Questions.
+</pre></div>
+</td></tr></table>
+<div class="admonition question"><p class="admonition-title">Question</p><p>What is the meaning of life?</p></div><div class="admonition help"><p class="admonition-title">Help</p><p>Help me, Obi-Wan Kenobi. You're my only hope.</p></div><div class="admonition faq"><p class="admonition-title">Faq</p><p>FAQ stands for Frequently Asked Questions.</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! warning
+    This is your last warning.
+
+!!! caution
+    Here be dragons.
+
+!!! attention
+    Please be advised.
+</pre></div>
+</td></tr></table>
+<div class="admonition warning"><p class="admonition-title">Warning</p><p>This is your last warning.</p></div><div class="admonition caution"><p class="admonition-title">Caution</p><p>Here be dragons.</p></div><div class="admonition attention"><p class="admonition-title">Attention</p><p>Please be advised.</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! failure
+    404 not found.
+
+!!! fail
+    Oops!
+
+!!! missing
+    Have you seen this block?
+</pre></div>
+</td></tr></table>
+<div class="admonition failure"><p class="admonition-title">Failure</p><p>404 not found.</p></div><div class="admonition fail"><p class="admonition-title">Fail</p><p>Oops!</p></div><div class="admonition missing"><p class="admonition-title">Missing</p><p>Have you seen this block?</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! danger
+    Mind the gap.
+
+!!! error
+    Check your semicolons.
+</pre></div>
+</td></tr></table>
+<div class="admonition danger"><p class="admonition-title">Danger</p><p>Mind the gap.</p></div><div class="admonition error"><p class="admonition-title">Error</p><p>Check your semicolons.</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! bug
+    The ants go marching two-by-two, hurrah, hurrah.
+</pre></div>
+</td></tr></table>
+<div class="admonition bug"><p class="admonition-title">Bug</p><p>The ants go marching two-by-two, hurrah, hurrah.</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! example
+    This is an example of an example.
+</pre></div>
+</td></tr></table>
+<div class="admonition example"><p class="admonition-title">Example</p><p>This is an example of an example.</p></div><hr /><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>!!! quote
+    Any sufficiently advanced technology is indistinguishable from magic.
+
+!!! cite
+    Clements, Jessica, Elizabeth Angeli, Karen Schiller, S. C. Gooch,
+    Laurie Pinkert, Allen Brizee, and Vanessa Iacocca. 2017. “General Format.” 
+    The Purdue OWL. Last edited October 12, 2017. 
+    https://owl.english.purdue.edu/owl/resource/717/02.
+</pre></div>
+</td></tr></table>
+<div class="admonition quote"><p class="admonition-title">Quote</p><p>Any sufficiently advanced technology is indistinguishable from magic.</p></div><div class="admonition cite"><p class="admonition-title">Cite</p><p>Clements, Jessica, Elizabeth Angeli, Karen Schiller, S. C. Gooch,
+Laurie Pinkert, Allen Brizee, and Vanessa Iacocca. 2017. 
+“General Format.” The Purdue OWL. Last edited October 12, 2017. 
+<a href="https://owl.english.purdue.edu/owl/resource/717/02">https://owl.english.purdue.edu/owl/resource/717/02</a>.</p></div></details><h3 id="blockquotes">Blockquotes<a class="headerlink" href="#blockquotes" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>&gt; This is a blockquote.
+
+&gt; Blockquotes can have multiple paragraphs, 
+and are not broken by newlines.
+
+&gt; &gt; You can also nest them.
+</pre></div>
+</td></tr></table>
+
+<blockquote>
+<p>This is a blockquote.</p>
+<p>Blockquotes can have multiple paragraphs, 
+and are not broken by newlines.</p>
+<blockquote>
+<p>You can also nest them.</p>
+</blockquote>
+</blockquote>
+<h3 id="math_1">Math<a class="headerlink" href="#math_1" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Put a TeX equation in its own block:
+$$
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+$$
+</pre></div>
+</td></tr></table>
+
+<p>Put a TeX equation in its own block:
+$$
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+$$</p>
+<h3 id="lists">Lists<a class="headerlink" href="#lists" title="Permanent link">&para;</a></h3>
+<h4 id="unordered">Unordered<a class="headerlink" href="#unordered" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>* A
+* simple
+* bulleted
+* list
+---
+- You can also use `-` characters
++ In fact, lists can be `*`, `-`, or `+` characters
+* Even in the same list!
+</pre></div>
+</td></tr></table>
+
+<ul>
+<li>A</li>
+<li>simple</li>
+<li>bulleted</li>
+<li>list</li>
+</ul>
+<hr />
+<ul>
+<li>You can also use <code>-</code> characters</li>
+<li>In fact, lists can be <code>*</code>, <code>-</code>, or <code>+</code> characters</li>
+<li>Even in the same list!</li>
+</ul>
+<h4 id="ordered">Ordered<a class="headerlink" href="#ordered" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>1. You can make a numbered list.
+2. Count up.
+3. Up.
+4. And away!
+---
+1. Another way is just using `1.` for everything.
+1. This is sometimes easier.
+</pre></div>
+</td></tr></table>
+
+<ol>
+<li>You can make a numbered list.</li>
+<li>Count up.</li>
+<li>Up.</li>
+<li>And away!</li>
+</ol>
+<hr />
+<ol>
+<li>Another way is just using <code>1.</code> for everything.</li>
+<li>This is sometimes easier.</li>
+</ol>
+<h4 id="indentation">Indentation<a class="headerlink" href="#indentation" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>- Indents organize lists
+    - Use indents by adding at least two spaces to the start of a line.
+        - We need to go deeper.
+- And back out.
+---
+1. Indented ordered lists:
+    1. Will use alternate numbering for different indents.
+        1. We&#39;re roman now!
+    1. Otherwise, they follow the same procedure as ordered lists.
+    You can put further list-item content on the same indent level.
+    ```python
+    print &quot;Here&#39;s some code.&quot;
+    ```
+1. Here&#39;s item 2.
+</pre></div>
+</td></tr></table>
+
+<ul>
+<li>Indents organize lists<ul>
+<li>Use indents by adding at least two spaces to the start of a line.<ul>
+<li>We need to go deeper.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>And back out.</li>
+</ul>
+<hr />
+<ol>
+<li>Indented ordered lists:<ol>
+<li>Will use alternate numbering for different indents.<ol>
+<li>We're roman now!</li>
+</ol>
+</li>
+<li>Otherwise, they follow the same procedure as ordered lists.
+You can put further list-item content on the same indent level.
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="k">print</span> <span class="s2">&quot;Here&#39;s some code.&quot;</span>
+</pre></div>
+</td></tr></table></li>
+</ol>
+</li>
+<li>Here's item 2.</li>
+</ol>
+<h4 id="task-lists">Task Lists<a class="headerlink" href="#task-lists" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Shopping List:
+
+* [x] Bread
+* [x] Eggs
+* [ ] Milk
+* [ ] Ice cream
+    * [x] Chocolate
+    * [ ] Vanilla
+* [x] Chicken
+* [ ] Power cubes
+</pre></div>
+</td></tr></table>
+
+<p>Shopping List:</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Bread</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Eggs</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Milk</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ice cream<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Chocolate</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Vanilla</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Chicken</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Power cubes</li>
+</ul>
+<h3 id="tables">Tables<a class="headerlink" href="#tables" title="Permanent link">&para;</a></h3>
+<h4 id="simple">Simple<a class="headerlink" href="#simple" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>Widgets | Cost
+---|---
+1 | $2
+50 | $75
+5000 | $5000
+</pre></div>
+</td></tr></table>
+
+<table>
+<thead>
+<tr>
+<th>Widgets</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>$2</td>
+</tr>
+<tr>
+<td>50</td>
+<td>$75</td>
+</tr>
+<tr>
+<td>5000</td>
+<td>$5000</td>
+</tr>
+</tbody>
+</table>
+<h4 id="advanced">Advanced<a class="headerlink" href="#advanced" title="Permanent link">&para;</a></h4>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>| A left-aligned header.                             | A center-aligned header.         |       A right-aligned header. |
+|:---------------------------------------------------|:--------------------------------:|------------------------------:|
+| A long, *somewhat* complicated table element.      |       A centered element.        |                  `some code`. |
+| Another row in the table.                          | With the same number of columns. | [A link](https://google.com). |
+| The following cells are empty, as is the next row: |                                  |                               |
+|                                                    |                                  |                               |
+| And we&#39;re back.                                    |                                  |                         Whew. |
+</pre></div>
+</td></tr></table>
+
+<table>
+<thead>
+<tr>
+<th align="left">A left-aligned header.</th>
+<th align="center">A center-aligned header.</th>
+<th align="right">A right-aligned header.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">A long, <em>somewhat</em> complicated table element.</td>
+<td align="center">A centered element.</td>
+<td align="right"><code>some code</code>.</td>
+</tr>
+<tr>
+<td align="left">Another row in the table.</td>
+<td align="center">With the same number of columns.</td>
+<td align="right"><a href="https://google.com">A link</a>.</td>
+</tr>
+<tr>
+<td align="left">The following cells are empty, as is the next row:</td>
+<td align="center"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="center"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="left">And we're back.</td>
+<td align="center"></td>
+<td align="right">Whew.</td>
+</tr>
+</tbody>
+</table>
+<p>Note that tables can have their pipes and contents either aligned or unaligned; whitespace and extra dashes are ignored.</p>
+<h3 id="images">Images<a class="headerlink" href="#images" title="Permanent link">&para;</a></h3>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>![Some Title Text](../images/FIRSTlogo.svg)
+</pre></div>
+</td></tr></table>
+
+<p><img alt="Some Title Text" src="../../images/FIRSTlogo.svg" /></p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../more-testing/" title="Second Demo" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Second Demo
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../guides/velocity-pid/" title="PID Tuning" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                PID Tuning
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://team1540.org" class="md-footer-social__link fa fa-globe"></a>
+    
+      <a href="https://github.com/flamingchickens1540" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://www.facebook.com/FRC1540/" class="md-footer-social__link fa fa-facebook"></a>
+    
+      <a href="https://twitter.com/flamingchickens" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://www.instagram.com/1540flamingchickens/" class="md-footer-social__link fa fa-instagram"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.9fb73e57.js"></script>
+      
+      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>

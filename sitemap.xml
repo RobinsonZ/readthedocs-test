@@ -5,13 +5,13 @@
         
     <url>
      <loc>https://robinsonz.github.io/readthedocs-test//</loc>
-     <lastmod>2018-02-05</lastmod>
+     <lastmod>2018-02-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://robinsonz.github.io/readthedocs-test//legal/</loc>
-     <lastmod>2018-02-05</lastmod>
+     <lastmod>2018-02-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -21,13 +21,19 @@
         
     <url>
      <loc>https://robinsonz.github.io/readthedocs-test//demos/about/</loc>
-     <lastmod>2018-02-05</lastmod>
+     <lastmod>2018-02-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://robinsonz.github.io/readthedocs-test//demos/more-testing/</loc>
-     <lastmod>2018-02-05</lastmod>
+     <lastmod>2018-02-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://robinsonz.github.io/readthedocs-test//demos/tutorial/</loc>
+     <lastmod>2018-02-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -37,13 +43,13 @@
         
     <url>
      <loc>https://robinsonz.github.io/readthedocs-test//guides/velocity-pid/</loc>
-     <lastmod>2018-02-05</lastmod>
+     <lastmod>2018-02-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://robinsonz.github.io/readthedocs-test//guides/debugging-robot-code/</loc>
-     <lastmod>2018-02-05</lastmod>
+     <lastmod>2018-02-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -53,13 +59,13 @@
         
     <url>
      <loc>https://robinsonz.github.io/readthedocs-test//refsheet/getting-started/</loc>
-     <lastmod>2018-02-05</lastmod>
+     <lastmod>2018-02-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://robinsonz.github.io/readthedocs-test//refsheet/links/</loc>
-     <lastmod>2018-02-05</lastmod>
+     <lastmod>2018-02-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
