@@ -54,6 +54,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.caret
 
 # Required for Arithmatex extension (https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/#loading-mathjax)
 extra_javascript:
@@ -69,6 +70,7 @@ pages:
     - Markdown Demos:
       - First Demo: demos/about.md
       - Second Demo: demos/more-testing.md
+      - Tutorial: demos/tutorial.md
     - Guides:
       - PID Tuning: guides/velocity-pid.md
       - Debugging Robot Code: guides/debugging-robot-code.md
