@@ -136,18 +136,18 @@ You can also create them by indenting with four spaces
 
 #### Syntax Highlighting
     
-        Specify a language to add syntax highlighting:
-        
-        ```python
-        print "Hello world!"
-        ```
-    
     Specify a language to add syntax highlighting:
     
     ```python
     print "Hello world!"
     ```
-    A list of supported languages is [here](http://pygments.org/languages/).
+
+Specify a language to add syntax highlighting:
+
+```python
+print "Hello world!"
+```
+A list of supported languages is [here](http://pygments.org/languages/).
 
 #### Highlighting Lines
     You can highlight specific lines to emphasize them.
